@@ -30,7 +30,7 @@ https://guiadoestudante.abril.com.br/curso-enem/primeiras-civilizacoes-pre-histo
 
 ## ATA-02 TRABALHO PI - Comércio e circulação de tecnologia - Civilizações
 —
-*Data: 11 de junho de 2026.*
+*Data: 18 de junho de 2026.*
 
 ### Assunto: Delegação de responsabilidades para cada membro do grupo. 
 
