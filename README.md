@@ -28,11 +28,11 @@ Civilizações antigas | National Geographic | National Geographic
 Ideia de cor para quiz:
 https://guiadoestudante.abril.com.br/curso-enem/primeiras-civilizacoes-pre-historia-mesopotamia-e-egito/
 
-ATA-02 TRABALHO PI - Comércio e circulação de tecnologia - Civilizações
+## ATA-02 TRABALHO PI - Comércio e circulação de tecnologia - Civilizações
 —
-Data: 11 de junho de 2026.
+*Data: 11 de junho de 2026.*
 
-Assunto: Delegação de responsabilidades para cada membro do grupo. 
+### Assunto: Delegação de responsabilidades para cada membro do grupo. 
 
 Coordenador Matheus Pasqualini Mello & Secretário Heitor Medeiros Anadom.
 —
@@ -63,23 +63,23 @@ Vicenzo começou uma pesquisa mais aprofundada sobre o tema principal do site.
 
 Decisões Finais do dia:
 
-CORES
-Ideias:
-Site da History Channel
-Nvidia.com
-McDonalds
-Github
+### CORES
+**Ideias:**
+- Site da History Channel
+- Nvidia.com
+- McDonalds
+- Github
 
-Dicas:
-Tem que ter só uma cor tema,e no máximo duas cores de fundo(neutras)
-Fórmula das cores: 60% 30% 10%
-60%:Branco
-30%:Preto
-10%:Amarelo(#ffb300)
+**Dicas:**
+- Tem que ter só uma cor tema,e no máximo duas cores de fundo(neutras)
+- Fórmula das cores: 60% 30% 10%
+- 60%:Branco
+- 30%:Preto
+- 10%:Amarelo(#ffb300)
 
 
 
-Formatação:
+### Formatação:
 
 Ideias para formatação: https://clube.design/
 
