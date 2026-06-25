@@ -19,13 +19,13 @@ Matheus Rafael Oliveira: Responsável pela decisão da estilização do site(cor
 Vicenzo Alves Dos Santos: Responsável pela organização do projeto em Github.
 —
 
-Decisões gerais:
+### Decisões gerais:
 Para a seleção de cores, o grupo escolheu as cores dourado, preto e uma transição de azul para vermelho.
 
-Ideia de cor e site:
+### Ideia de cor e site:
 Civilizações antigas | National Geographic | National Geographic
 
-Ideia de cor para quiz:
+### Ideia de cor para quiz:
 https://guiadoestudante.abril.com.br/curso-enem/primeiras-civilizacoes-pre-historia-mesopotamia-e-egito/
 
 ## ATA-02 TRABALHO PI - Comércio e circulação de tecnologia - Civilizações
