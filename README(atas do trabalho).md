@@ -138,3 +138,25 @@ Decisões e acontecimentos gerais:
 
 Novas responsabilidades foram atribuídas a cada membro do grupo
 Todos continuaram a fazer sua parte do trabalho
+
+## ATA-04 TRABALHO PI - Comércio e circulação de tecnologia - Civilizações
+—
+*Data: 2 de julho de 2026.*
+
+### Assunto: Continuidade das tarefas
+
+Coordenador Matheus Pasqualini Mello & Secretário Heitor Medeiros Anadom.
+—
+Ausentes: Matheus Rafael Oliveira (Motivo não declarado)
+—
+### Em razão da ausência de um dos membros do grupo, suas responsabilidades foram divididas entre os membros. Segue o quadro atualizado.
+
+- Andrius Bonatti de Andrade: Responsável pela coleta de informações e referências e construção do site em HTML.
+- Gabriel Carlos Hardt Elias: Responsável pela idealização do site no Figma e estilização em CSS.
+- Heitor Medeiros Anadom: Responsável pela decisão da estilização do site(cores, formatação, etc) e programação em JavaScript.
+- Matheus Pasqualini Mello: Responsável pela idealização do site no Figma e estilização em CSS.
+- Matheus Rafael Oliveira: Ausente (responsabilidades transferidas para      Heitor Medeiros Anadom)
+- Vicenzo Alves Dos Santos: Responsável pela organização do projeto em Github e construção do site em HTML.
+—
+
+Decisões e acontecimentos gerais:
