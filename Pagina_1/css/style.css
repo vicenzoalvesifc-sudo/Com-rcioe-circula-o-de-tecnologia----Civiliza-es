@@ -1,0 +1,109 @@
+header {
+    display: flex;
+    background: linear-gradient(to right, #6920FA, #76CEFA);
+    color: white;
+    padding: 1vw;
+    align-items: center;
+    background-size: 400% 400%;
+  animation: animarGradiente 10s ease infinite;
+}
+
+@keyframes animarGradiente {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+header ul{
+    display: flex;
+}
+
+header div {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+header ul li{
+    padding-left: 1vw ;
+    padding-right: 1vw ;
+}
+
+header button{
+    background: linear-gradient(to right, #D86BFD, #00BBFF);
+    padding: 0.7vw 2vw 0.7vw 2vw;
+    border-radius: 30px;
+    vertical-align: middle;
+    background-size: 400% 400%;
+  animation: animarbotao 10s ease infinite;
+}
+
+@keyframes animarbotao {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+section.principal  {
+    background-image: url(../source/Dados.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+section.principal img{
+    width: 30vw;
+}
+
+section.principal {
+    display: flex;
+    padding: 10vw 4vw 10vw 4vw;
+}
+
+section.principal div h1 {
+    font-size: 4vw;
+    font-weight: bold;
+}
+
+section.principal div h2 {
+    font-size: 4vw;
+    font-weight: bold;
+    /* 1. Define o gradiente gigante de fundo */
+      background: linear-gradient(to right, #00F6FF, #1900FF);
+      background-size: 400% 400%;
+
+      /* 2. Recorta o fundo no formato das letras */
+      -webkit-background-clip: text;
+      background-clip: text;
+      
+      /* 3. Deixa a cor original do texto transparente para revelar o fundo */
+      -webkit-text-fill-color: transparent;
+
+      /* 4. Ativa o movimento do gradiente */
+      animation: moverGradiente 8s ease infinite;
+}
+
+    @keyframes moverGradiente {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
