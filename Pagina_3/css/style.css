@@ -1,0 +1,164 @@
+/* === IMPORTAÇÃO DE FONTES */
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap");
+/*
+Follow - font-family: "Fredoka", sans-serif;
+Medu - Oswald
+*/
+/* ==========================*/
+
+/* ==== FORMATAÇÃO GERAL === */
+html {
+  font-size: clamp(1rem, 2vw + 0.8rem, 3rem);
+  font-family: "Epilogue", sans-serif;
+}
+h1 {
+  font-family: "Space Grotesk", sans-serif;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Space Grotesk", sans-serif;
+}
+p {
+  font-family: "Heebo", sans-serif;
+}
+
+/* MEDIA QUERY - DESKTOP */
+@media screen and (min-width: 600px) {
+
+   header {
+    display: flex;
+    justify-content: space-between;
+    margin: 4vw 7vw;
+  }
+  nav ul {
+    display: flex;
+  }
+  nav ul li {
+    font-size: 0.5rem;
+    margin-left: 3vw;
+    font-weight: 600;
+  }
+  nav ul li p a {
+    background-color: blueviolet;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+
+  .banner {
+    margin: 4vw 7vw;
+  }
+  .banner h1{
+    font-size: 2.2rem;
+    margin-bottom: 1vw;
+    padding: 0 45vw 0 0;
+    font-weight: bolder;
+  }
+  .banner p {
+    font-size: 0.8rem;
+    padding: 2vw 15vw 2vw 0
+  }
+
+  .banner button {
+    background-color:rgb(161, 159, 159);
+    color: black;
+    padding: 10px 15px;
+    border-radius: 40px;
+    filter: drop-shadow(3px solid black);
+  }
+
+  .banner h1 span.comercio{
+    color: blueviolet;
+  }
+  .banner h1 span.tecnologia{
+    background-color: red;
+    color: white;
+  }
+
+  .aparelhos{
+     margin: 4vw 7vw;
+  }
+  .aparelhos > div{
+    display: flex;
+    justify-content: space-between;
+  }
+  .aparelhos h2{
+    font-size: 2rem;
+    font-weight: bolder;
+    padding: 9vw 0 0 0;
+  }
+    .aparelhos h2 span{
+      color: rgb(41, 201, 212);
+  }
+     .aparelhos h2 span.vender{
+      color: blueviolet;
+      padding: 0 45vw 0 0;
+
+  }
+  .aparelhos div p{
+    font-size: 0.6rem;
+    padding: 2vw 0 0 0;
+
+  }
+  .aparelhos ul{
+    display: flex;
+    padding: 8vw 1vw 0 0;
+  }
+  .aparelhos ul li{
+    padding: 0 2vw 0 2vw;
+    margin: 0 2vw 0 0;
+    filter: drop-shadow(8px 8px 0);
+     border: 2px solid black;
+    
+  }
+
+  .aparelhos ul li.box-red{
+    background-color: red;
+  }
+  .aparelhos ul li.box-blue{
+    background-color: blue;
+  } 
+  .aparelhos ul li.box-green{
+    background-color: green;
+  }
+  .aparelhos ul li.box-yellow{
+    background-color: yellow;
+    padding: 0 0 0 0;
+  }
+  .aparelhos ul li h3{
+
+    color: black;
+    font-weight: bolder;
+    font-size: 1rem;
+    padding: 1vw 0 0 0;
+  }
+  .aparelhos ul li p{
+    font-size: 0.6rem;
+    padding: 1vw 0 1vw 0;
+  }
+
+  .aparelhos img{
+    width: 30%;
+  }
+
+  .ideia {
+    margin: 4vw 7vw;
+    background-color: #21243D;
+  }
+  .ideia h2{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: white;
+    padding: 3vw 30vw 0 2vw;
+  }
+  .ideia span{
+    color: green;
+  }
+  .ideia span.mao{
+    color: red;
+  }
+}
