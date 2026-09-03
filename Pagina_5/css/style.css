@@ -1,0 +1,129 @@
+/* === IMPORTAÇÃO DE FONTES */
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap");
+
+/* === FORMATAÇÃO GERAL === */
+
+html {
+  font-size: clamp(1rem, 2vw + 0.8rem, 3rem);
+  font-family: "Epilogue", sans-serif;
+}
+h1 {
+  font-family: "Space Grotesk", sans-serif;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Space Grotesk", sans-serif;
+}
+p {
+  font-family: "Heebo", sans-serif;
+}
+
+/* MEDIA QUERY - DESKTOP */
+
+@media screen and (min-width: 600px) {
+
+  header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin: 5vw 5vw;
+  }
+
+  header nav ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  header nav ul li {
+    padding: 1.5vw;
+    font-size: 0.4rem;
+    font-weight: 600;
+  }
+
+header a.logo {
+  width: 14vw;
+  margin: 0.9vw 5vw 0 0;
+}
+
+header a.quiz {
+  font-size: 0.4rem;
+  font-weight: 600;
+  margin: 0 0 0 2vw;
+  background-color: #C7CBA0;
+  padding: 1.7vw 2vw;
+  border-radius: 7px;
+  white-space: nowrap;
+}
+
+/* === BANNER === */
+
+.banner {
+  margin: 0 5vw;
+}
+
+.banner h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 6vw;
+}
+
+.banner h1 .realmente {
+  color: #4014FF;
+}
+
+.banner h2.conc {
+  font-size: 1.4rem;
+  font-weight: 600;
+  display: inline-block;
+  border-bottom: 7px solid #3b00ff ;
+  padding-bottom: 4px;
+  margin-bottom: 2vw;
+}
+
+.banner p.conceito {
+  font-size: 0.85rem;
+  margin-bottom: 4vw;
+}
+
+.banner p.conceito span {
+  color: white;
+  background-color: #3b00ff;
+  padding: 0.1vw 0.2vw;
+  border-radius: 3px;
+}
+
+.banner h2.onde {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 2vw;
+}
+
+.banner h2.onde span {
+  color: #0088FF;
+}
+
+.banner p.ocorrencia {
+  font-size: 0.85rem;
+  margin-bottom: 5vw;
+}
+
+.banner p.ocorrencia span.meso {
+  background-color: rgb(39, 176, 39);
+  color: white;
+  padding: 0.1vw 0.2vw;
+  border-radius: 3px;
+}
+
+.banner p.ocorrencia span {
+  background-color: rgb(126, 195, 126);
+  color: white;
+  padding: 0.1vw 0.2vw;
+  border-radius: 3px;
+}
+
+}
