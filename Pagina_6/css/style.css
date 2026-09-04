@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap');
+/* font-family: "Heebo", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap');
+/* font-family: "Heebo", sans-serif; */
+
 
 
 
@@ -66,7 +71,17 @@ header button {
 }
 
 body {
-    background-color: #f4faff;
+    background-color: aliceblue;
+}
+
+.banner img {
+width: auto;
+height: 12vw;
+border: rgb(134, 4, 4);
+border-radius: 10px;
+}
+.banner {
+    display: flex;
 }
 
 main {
@@ -74,22 +89,29 @@ main {
 }
 
 main p {
-    font-size: 1.1rem;
-    padding: 0 3vw 0 3vw;
+    font-size: 1.2rem;
+    padding: 1.5vw 3vw 0 3vw;
+    font-family: "Heebo", sans-serif;
 }
 
 main h1 {
     font-weight: bold;
-    font-size: 3.5rem;
+    font-size: 4.5rem;
+    font-family: "Space Grotesk", sans-serif;
+    padding: 0 3vw 0 3vw;
 }
 
 main h2 {
+     font-size: 3.5rem;
     padding: 0 3vw 0 3vw;
+    font-family: "Space Grotesk", sans-serif;
 }
 
 main h3 {
+
     padding: 0 3vw 0 3vw;
     font-weight: bold;
+    font-family: "Space Grotesk", sans-serif;
 }
 
 main h1 span {
@@ -97,14 +119,9 @@ main h1 span {
 }
 
 /*------------------------Motifs----------------------*/
-.motifs {
-    background-color: white;
-    border-radius: 12px;
-    padding: 2px;
-}
 
 .motifs h2 {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-weight: bold;
 }
 
@@ -120,6 +137,9 @@ main h1 span {
 .motifs p span {
     color: #ff0000;
     font-weight: bold;
+}
+.motifs ol li h3 {
+    font-size: 1.3rem;
 }
 
 .motifs ol li.survive {
@@ -152,6 +172,7 @@ main h1 span {
 
 .motifs ol li {
     padding: 0.5vw 0.5vw 0.5vw 0.5vw;
+    margin: 0 1vw 15px 1vw;
 }
 
 .motifs ol li p {
@@ -160,7 +181,7 @@ main h1 span {
 
 /*------------------------Access----------------------*/
 .access h2 {
-    font-size: 2.5rem;
+     font-size: 3.5rem;
     font-weight: bold;
 }
 
@@ -171,34 +192,50 @@ main h1 span {
 .access h2 span.red {
     color: #FF383C;
 }
-
+.access p {
+    padding-top: 2.5vw;
+}
+.access ul {
+    display: flex;
+    padding-bottom: 3vw;
+}
+.access ul div {
+    border-right: black 3px solid;
+}
+.access ul div li {
+    margin: 5px 10px 5px 10px;
+}
+.access img {
+    width: auto;
+    height: 15px;
+    padding-right: 3px;
+}
 .access ul li p span.king {
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: #ffcc00;
 }
 
 .access ul li p span.priest {
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: #0088ff;
 }
 
 .access ul li p span.military {
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: #3a7d16;
 }
 
 .access ul li p span.scientist {
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: #ff6464;
 }
 
 /* ------------------ MainTech ------------------*/
 .mainTech h2 {
-    font-size: 2.5rem;
     font-weight: bold;
 }
 
@@ -208,6 +245,9 @@ main h1 span {
 
 .mainTech h2 span.blue {
     color: #675CFF;
+}
+.mainTech p {
+    padding-top:  1.5vw; ;
 }
 
 .mainTech p span {
