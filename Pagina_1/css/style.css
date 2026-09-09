@@ -130,7 +130,186 @@ section.principal div h2 {
       border-radius: 30px;
     }
 
-    footer {
+    /* Saiba mais */
+
+    
+
+    section.tecnologia{
+      text-align: center;
+      padding-left: 10vw;
+      padding-right: 10vw;
+    }
+
+    section.tecnologia h1{
+      font-size: 4vw;
+      font-weight: bold;
+      padding-bottom: 2vw;
+    }
+
+    section.tecnologia p {
+      padding-bottom: 4vw;
+    }
+
+    section.tecnologia h1 span{
+      color: #3150B6;
+    }
+
+    section.tecnologia div{
       display: flex;
     }
 
+    section.tecnologia div p img{
+      width: 50px;
+      height: 50px;
+      object-fit: cover;
+      border-radius: 50%
+    }
+
+    section.tecnologia div.sla p{
+      display: flex;
+      align-items: center;
+    }
+
+    section.tecnologia div p {
+      margin-left: auto;
+      padding-left: 17vw; ;
+      
+    }
+
+    section.tecnologia div.sla p#mes {
+      padding-right: 19vw;  
+    }
+
+
+    section.carrosel div{
+      display: flex;
+    }
+
+    section.comercio {
+      background-color: #00003A;
+      color :white;
+      padding: 3vw 15vw 3vw 15vw;
+    }
+
+    section.comercio h2 {
+      text-align: center;
+      font-size: 3vw;
+      color: #00F7DA;
+      padding-bottom: 4vw;
+
+    }
+
+    section.comercio h3 {
+      font-size: 2vw;
+    }
+
+    section.comercio h3 span{
+      color: #00F7DA;
+    }
+
+    section.comercio p#text {
+      padding-top: 2vw;
+    }
+
+    section.comercio div.linha{
+      display: flex;
+    }
+
+    section.comercio div.origins {
+      margin-left: auto;
+      padding-right: 2vw;
+      font-size: 2rem;
+      
+    }
+
+    section.comercio div.origins ul li{
+      padding: 1.8vw 7vw 0 0;
+    }
+
+    section.comercio div.subtitle {
+      display: flex;
+      padding-top: 3vw;
+    }
+
+    section.comercio div.subtitle div{
+      margin-left: 21.5%;
+      padding-right: 0vw;
+      display: grid;
+    }
+
+    section.comercio div.ouro {
+      padding: 0 5vw 7vw 7vw;
+      border-right: solid #003670 2px;
+    }
+
+    section.inter h2 {
+      font-size: 3vw;
+      text-align: center;
+    }
+
+    section.inter h2 span#roxo{
+      color: #A746F0;
+    }
+
+    section.inter h2 span#ciano{
+      color: #00A491;
+    }
+
+    section.inter div.boxes {
+      display: flex;
+      margin-left: 29%;
+      gap: calc(5vw);
+      padding: 5vw 0 5vw 0;
+    }
+
+    section.inter div.boxes div.box {
+      background: linear-gradient(to bottom right, #B638FF, #0EFACB);
+      padding: 1vw;
+      color: white;
+      box-shadow: 7px 7px black;
+      border: solid black 2px;
+      transform: rotate(-5deg);
+      p{
+        font-weight: bold;
+      }
+
+      p#money{
+          padding-bottom: 10px;
+          font-size: 1.6vw
+        }
+    }
+
+    section.inter div.boxes div.box1 {
+      background: linear-gradient(to bottom right, #38FF4F, #00FFC3);
+      padding: 1vw;
+      box-shadow: 7px 7px black;
+      border: solid black 2px;
+      p{
+        font-weight: bold;
+      }
+
+      p#money{
+          padding-bottom: 10px;
+          font-size: 1.6vw
+        }
+    }
+
+    section.inter div.boxes div.box2 {
+      background: linear-gradient(to bottom right, #FF7700, #FF0505);
+      padding: 1vw;
+      box-shadow: 7px 7px black;
+      border: solid black 2px;
+      transform: rotate(5deg);
+      p{
+        font-weight: bold;
+      }
+
+      p#money{
+          padding-bottom: 10px;
+          font-size: 1.6vw
+        }
+    }
+
+    footer {
+      display: flex;
+    }
