@@ -45,85 +45,147 @@ p {
     font-weight: 600;
   }
 
-header a.logo {
-  width: 14vw;
-  margin: 0.9vw 5vw 0 0;
-}
+  header a.logo {
+    width: 15vw;
+    margin: 0.9vw 5vw 0 0;
+  }
 
-header a.quiz {
-  font-size: 0.4rem;
-  font-weight: 600;
-  margin: 0 0 0 2vw;
-  background-color: #C7CBA0;
-  padding: 1.7vw 2vw;
-  border-radius: 7px;
-  white-space: nowrap;
-}
+  header a.quiz {
+    font-size: 0.4rem;
+    font-weight: 600;
+    margin: 0 0 0 2vw;
+    background-color: #C7CBA0;
+    padding: 1.7vw 2vw;
+    border-radius: 7px;
+    white-space: nowrap;
+  }
 
-/* === BANNER === */
+  /* === BANNER === */
 
-.banner {
-  margin: 0 5vw;
-}
+  .banner {
+    margin: 0 5vw;
+    border-bottom: 4px solid black ;
+  }
 
-.banner h1 {
-  font-size: 2rem;
-  font-weight: 800;
-  margin-bottom: 6vw;
-}
+  .banner h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 6vw;
+  }
 
-.banner h1 .realmente {
-  color: #4014FF;
-}
+  .banner h1 .realmente {
+    color: #4014FF;
+  }
 
-.banner h2.conc {
-  font-size: 1.4rem;
-  font-weight: 600;
-  display: inline-block;
-  border-bottom: 7px solid #3b00ff ;
-  padding-bottom: 4px;
-  margin-bottom: 2vw;
-}
+  .banner h2.conc {
+    font-size: 1.4rem;
+    font-weight: 600;
+    display: inline-block;
+    border-bottom: 7px solid #3b00ff ;
+    padding-bottom: 4px;
+    margin-bottom: 2vw;
+  }
 
-.banner p.conceito {
-  font-size: 0.85rem;
-  margin-bottom: 4vw;
-}
+  .banner p.conceito {
+    font-size: 0.85rem;
+    margin-bottom: 4vw;
+  }
 
-.banner p.conceito span {
-  color: white;
-  background-color: #3b00ff;
-  padding: 0.1vw 0.2vw;
-  border-radius: 3px;
-}
+  .banner p.conceito span {
+    color: white;
+    background-color: #3b00ff;
+    padding: 0.1vw 0.2vw;
+    border-radius: 3px;
+  }
 
-.banner h2.onde {
-  font-size: 1.4rem;
-  font-weight: 600;
-  margin-bottom: 2vw;
-}
+  .banner h2.onde {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 2vw;
+  }
 
-.banner h2.onde span {
-  color: #0088FF;
-}
+  .banner h2.onde span {
+    color: #0088FF;
+  }
 
-.banner p.ocorrencia {
-  font-size: 0.85rem;
-  margin-bottom: 5vw;
-}
+  .banner p.ocorrencia {
+    font-size: 0.85rem;
+    margin-bottom: 5vw;
+  }
 
-.banner p.ocorrencia span.meso {
-  background-color: rgb(39, 176, 39);
-  color: white;
-  padding: 0.1vw 0.2vw;
-  border-radius: 3px;
-}
+  .banner p.ocorrencia span.meso {
+    background-color: rgb(39, 176, 39);
+    color: white;
+    padding: 0.1vw 0.2vw;
+    border-radius: 3px;
+  }
 
-.banner p.ocorrencia span {
-  background-color: rgb(126, 195, 126);
-  color: white;
-  padding: 0.1vw 0.2vw;
-  border-radius: 3px;
-}
+  .banner p.ocorrencia span {
+    background-color: rgb(126, 195, 126);
+    color: white;
+    padding: 0.1vw 0.2vw;
+    border-radius: 3px;
+  }
+
+  /* === CURIOSIDADES === */
+
+  .curiosidades {
+    margin: 10vw 8vw;
+    align-items: center;
+  }
+
+  .curiosidades h2 {
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: white;
+    white-space: nowrap;
+    background-color: #E91313;
+    padding: 1.5vw 1vw;
+    box-shadow: 12px 12px black;
+  }
+
+  .curiosidades h2 span {
+    color: black;
+  }
+
+  .curiosidades ul {
+    display: flex;
+  }
+
+  .curiosidades ul li {
+    /*border: 4px solid black;
+    box-shadow: 15px 20px black;*/
+    margin: 10vw 1vw;
+    padding: 3vw 2vw 1vw 2vw;
+  }
+
+  .curiosidades ul li .geral-curio .img-curio {
+    border: 4px solid black;
+    border-bottom: 2px solid black;
+    box-shadow: 15px black;
+    padding: 4vw 2vw;
+  }
+
+  .curiosidades ul li img {
+    width: 12vw;
+  }
+
+  .curiosidades ul li .geral-curio .texto-curio {
+    border: 4px solid black;
+    border-top: 2px solid black;
+  }
+
+  .curiosidades ul li h3 {
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-top: 2.2vw;
+  }
+
+  .curiosidades ul li p {
+    font-size: 0.5rem;
+    margin: 1.5vw 0 0 0;
+  }
 
 }
