@@ -228,16 +228,26 @@ section.principal div h2 {
 
     section.comercio div.subtitle {
       display: flex;
-      padding-top: 3vw;
+      padding-top: 8vw;
+      gap: calc(4vw);
     }
 
     section.comercio div.subtitle div{
-      margin-left: 21.5%;
       padding-right: 0vw;
       display: grid;
     }
 
-    section.comercio div.ouro {
+    section.comercio div.subtitle img{
+      height: 300px;
+      width: 400px;;
+      border-radius: 50px;
+    }
+
+    section.comercio div.subtitle p{
+      text-align: center;
+    }
+
+  section.comercio div.ouro {
       padding: 0 5vw 7vw 7vw;
       border-right: solid #003670 2px;
     }
@@ -284,10 +294,11 @@ section.principal div h2 {
       padding: 1vw;
       box-shadow: 7px 7px black;
       border: solid black 2px;
+      position: relative;
+      bottom: 0.8vw;
       p{
         font-weight: bold;
       }
-
       p#money{
           padding-bottom: 10px;
           font-size: 1.6vw
