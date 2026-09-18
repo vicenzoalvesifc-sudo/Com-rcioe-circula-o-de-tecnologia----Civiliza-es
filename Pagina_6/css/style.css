@@ -7,27 +7,14 @@
 header {
   display: flex;
   font-size: 1.5rem;
-  background: linear-gradient(to right, #6920fa, #76cefa);
-  color: white;
+  background: linear-gradient(to right, #f5f4f5, #f5f4f5);
+  color: black;
   padding: 1vw;
   align-items: center;
   background-size: 400% 400%;
   animation: animarGradiente 10s ease infinite;
 }
 
-@keyframes animarGradiente {
-  0% {
-    background-position: 0% 50%;
-  }
-
-  50% {
-    background-position: 100% 50%;
-  }
-
-  100% {
-    background-position: 0% 50%;
-  }
-}
 
 header ul {
   display: flex;
@@ -45,7 +32,7 @@ header ul li {
 }
 
 header button {
-  background: linear-gradient(to right, #d86bfd, #00bbff);
+  background: linear-gradient(to right, #fdec00, #ffae00);
   padding: 0.7vw 2vw 0.7vw 2vw;
   border-radius: 30px;
   vertical-align: middle;
@@ -103,14 +90,14 @@ main h3 {
 
 /*------------------------banner-----------------------*/
 .banner h1 {
-    font-size: 5.5rem;
+  font-size: 5.5rem;
 }
 .banner h1 span {
   color: #ffcc00;
 }
 .banner {
   display: flex;
-  gap: 39.5vw;
+  gap: 30vw;
   margin-bottom: 150px;
 }
 .banner img {
@@ -312,4 +299,16 @@ main h3 {
 /*-----------------------footer----------------------------*/
 footer div {
   display: flex;
+  gap: 3vw;
+  justify-content: left;
+  margin-left: 7.51vw;
+  padding-bottom: 1vw;
+}
+footer div ul {
+  border-right: gray solid 2px;
+  padding: 1px 3vw 1px 0;
+  text-align: left;
+}
+footer h2 {
+  font-weight: bold;
 }
