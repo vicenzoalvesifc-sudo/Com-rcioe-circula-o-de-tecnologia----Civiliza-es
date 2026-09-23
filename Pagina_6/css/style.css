@@ -7,7 +7,7 @@
 header {
   display: flex;
   font-size: 1.5rem;
-  background: linear-gradient(to right, #f5f4f5, #f5f4f5);
+  background: linear-gradient(to right, rgb(223, 223, 223), rgb(223, 223, 223));
   color: black;
   padding: 1vw;
   align-items: center;
@@ -16,7 +16,9 @@ header {
 }
 
 
-
+header img {
+  margin-left: auto;
+}
 header ul {
   display: flex;
 }
@@ -56,7 +58,7 @@ header button {
 }
 
 body {
-  background-color: aliceblue;
+  background-color: whitesmoke;
 }
 
 main {
@@ -98,11 +100,11 @@ main h3 {
 }
 .banner {
   display: flex;
-  gap: 30vw;
+  gap: 20vw;
   margin-bottom: 150px;
 }
 .banner img {
-  width: auto;
+  width: 100%;
   height: 20vw;
   display: inline-block;
   border: rgb(134, 4, 4) 5px solid;
