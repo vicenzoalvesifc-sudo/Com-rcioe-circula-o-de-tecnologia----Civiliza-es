@@ -160,3 +160,230 @@ Ausentes: Matheus Rafael Oliveira (Motivo não declarado)
 —
 
 Decisões e acontecimentos gerais:
+
+## ATA-05 TRABALHO PI - Comércio e circulação de tecnologia - Civilizações
+—
+*Data: 9 de julho de 2026.*
+
+Assunto: Continuidade das tarefas
+
+Coordenador Matheus Pasqualini Mello & Secretário Heitor Medeiros Anadom.
+—
+Ausentes: Todos os integrantes estavam presentes
+—
+
+- Andrius Bonatti de Andrade: Responsável pela coleta de informações e referências e construção do site em HTML.
+- Gabriel Carlos Hardt Elias: Responsável pela idealização do site no Figma e estilização em CSS.
+- Heitor Medeiros Anadom: Responsável pela decisão da estilização do site(cores, formatação, etc) e programação em JavaScript.
+- Matheus Pasqualini Mello: Responsável pela idealização do site no Figma e estilização em CSS.
+- Matheus Rafael Oliveira: Responsável pela decisão da estilização do site(cores, formatação, etc) e programação em JavaScript.
+- Vicenzo Alves Dos Santos: Responsável pela organização do projeto em Github e construção do site em HTML.
+
+
+—
+
+Decisões e acontecimentos gerais:
+- Foi decidido o nome oficial do site(Tech&History)
+- Foi criado um Instagram para o projeto do grupo(@tech_and_history; https://www.instagram.com/tech_and_history/)
+- Layout guia no Figma esta 50% completo
+
+## ATA-06 TRABALHO PI - Comércio e circulação de tecnologia - Civilizações
+—
+*Data: 16 de julho de 2026.*
+
+Assunto: Continuidade das tarefas, Figma finalizado.
+
+Coordenador Matheus Pasqualini Mello & Secretário Heitor Medeiros Anadom.
+—
+Ausentes: Todos os integrantes estavam presentes
+—
+
+- Andrius Bonatti de Andrade: Responsável pela coleta de informações e referências para o conteúdo do site e desenvolvimento em HTML (pg. 5 e 6).
+- Gabriel Carlos Hardt Elias: Responsável pela estilização em CSS.
+- Heitor Medeiros Anadom: Responsável pela programação em JavaScript e desenvolvimento em HTML (pg. 3).
+- Matheus Pasqualini Mello: Responsável pela estilização em CSS.
+- Matheus Rafael Oliveira: Responsável de Relações públicas e programação em JavaScript e desenvolvimento em HTML (pg. 4).
+- Vicenzo Alves Dos Santos: Responsável pela organização do projeto em Github e desenvolvimento em HTML (pg. 1 e 2).
+—
+
+Decisões e acontecimentos gerais:
+
+Cada membro do grupo ficará responsável pelo desenvolvimento em HTML de uma página específica.
+
+- Site guia em figma foi concluído, o desenvolvimento em HTML será iniciado.
+- (Site guia Figma)
+- Por meio de votação e debate entre os membros do grupo foi decidido que o Quiz Histórico terá 15 questões objetivas.
+
+## ATA-07 TRABALHO PI - Comércio e circulação de tecnologia - Civilizações
+—
+*Data: 13 de agosto de 2026.*
+
+Assunto: Continuidade das tarefas.
+
+Coordenador Matheus Pasqualini Mello & Secretário Heitor Medeiros Anadom.
+—
+Ausentes: Matheus Pasqualini Mello (Falta justificada, atestado apresentado ao professor), Matheus Rafael Oliveira e Andrius Bonatti de Andrade
+—
+
+- Andrius Bonatti de Andrade: Responsável pela coleta de informações e referências para o conteúdo do site e desenvolvimento em HTML (pg. 5 e 6).
+- Gabriel Carlos Hardt Elias: Responsável pela estilização em CSS.
+- Heitor Medeiros Anadom: Responsável pela programação em JavaScript e desenvolvimento em HTML (pg. 3).
+- Matheus Pasqualini Mello: Responsável pela estilização em CSS.
+- Matheus Rafael Oliveira: Responsável de Relações públicas e programação em JavaScript e desenvolvimento em HTML (pg. 4).
+- Vicenzo Alves Dos Santos: Responsável pela organização do projeto em Github e desenvolvimento em HTML (pg. 1 e 2).
+—
+
+Decisões e acontecimentos gerais:
+
+## ATA-08 TRABALHO PI - Comércio e circulação de tecnologia - Civilizações
+—
+*Data: 20 de agosto de 2026.*
+
+Assunto: Continuidade das tarefas.
+
+Coordenador Matheus Pasqualini Mello & Secretário Heitor Medeiros Anadom.
+—
+Todos os membros estavam presentes
+—
+
+- Andrius Bonatti de Andrade: Responsável pela coleta de informações e referências para o conteúdo do site e desenvolvimento em HTML e CSS (pg. 5).
+- Gabriel Carlos Hardt Elias: Responsável por desenvolvimento em HTML e CSS(pág. 4)
+- Heitor Medeiros Anadom: Responsável pela programação em JavaScript e desenvolvimento em HTML e CSS (pág 6)
+- Matheus Pasqualini Mello: Responsável por desenvolvimento em HTML e CSS (pág.3)
+- Matheus Rafael Oliveira: Responsável de Relações públicas e programação em JavaScript e desenvolvimento em HTML e CSS(pág. 2).
+- Vicenzo Alves Dos Santos: Responsável pela organização do projeto em Github e desenvolvimento em HTML e CSS (pág. 1).
+—
+
+Decisões e acontecimentos gerais:
+
+- Foi criado um repositório no Github para cada membro poder ter acesso atualizado ao projeto
+- A distribuição de construção das páginas do site foi atualizada para garantir que cada membro do grupo fique responsável por uma página específica 
+- Foi definida uma logo para o site (Veja a logo em Logo canva)
+
+## ATA-09 TRABALHO PI - Comércio e circulação de tecnologia - Civilizações
+—
+*Data: 27 de agosto de 2026.*
+
+Assunto: Continuidade das tarefas.
+
+Coordenador Matheus Pasqualini Mello & Secretário Heitor Medeiros Anadom.
+—
+Todos os membros estavam presentes
+—
+
+- Andrius Bonatti de Andrade: Responsável pela coleta de informações e referências para o conteúdo do site e desenvolvimento em HTML e CSS (pg. 5).
+- Gabriel Carlos Hardt Elias: Responsável por desenvolvimento em HTML e CSS(pág. 4)
+- Heitor Medeiros Anadom: Responsável pela programação em JavaScript e desenvolvimento em HTML e CSS (pág 6)
+- Matheus Pasqualini Mello: Responsável por desenvolvimento em HTML e CSS (pág.3)
+- Matheus Rafael Oliveira: Responsável de Relações públicas e programação em JavaScript e desenvolvimento em HTML e CSS(pág. 2).
+- Vicenzo Alves Dos Santos: Responsável pela organização do projeto em Github e desenvolvimento em HTML e CSS (pág. 1).
+—
+
+Decisões e acontecimentos gerais:
+
+- O header das páginas foi definido e distribuído para todos os integrantes
+
+## ATA-10 TRABALHO PI - Comércio e circulação de tecnologia - Civilizações
+—
+*Data: 29 de agosto de 2026 (Sábado Letivo).*
+
+Assunto: Continuidade das tarefas.
+
+Coordenador Matheus Pasqualini Mello & Secretário Heitor Medeiros Anadom.
+—
+Ausentes:
+- Andrius Bonatti de Andrade: Motivo não declarado
+—
+
+- Andrius Bonatti de Andrade: Responsável pela coleta de informações e referências para o conteúdo do site e desenvolvimento em HTML e CSS (pg. 5).
+- Gabriel Carlos Hardt Elias: Responsável por desenvolvimento em HTML e CSS(pág. 4)
+- Heitor Medeiros Anadom: Responsável pela programação em JavaScript e desenvolvimento em HTML e CSS (pág 6)
+- Matheus Pasqualini Mello: Responsável por desenvolvimento em HTML e CSS (pág.3)
+- Matheus Rafael Oliveira: Responsável de Relações públicas e programação em JavaScript e desenvolvimento em HTML e CSS(pág. 2).
+- Vicenzo Alves Dos Santos: Responsável pela organização do projeto em Github e desenvolvimento em HTML e CSS (pág. 1).
+—
+
+Decisões e acontecimentos gerais:
+
+- Matheus Pasqualini Mello se comprometeu a desenvolver um footer para utilização nas páginas do site
+
+## ATA-11 TRABALHO PI - Comércio e circulação de tecnologia - Civilizações
+—
+*Data: 9 de Setembro de 2026.*
+
+Assunto: Continuidade das tarefas e mudança da paleta de cores das páginas
+
+Coordenador Matheus Pasqualini Mello & Secretário Heitor Medeiros Anadom.
+—
+Ausentes:
+- Vicenzo Alves dos Santos: Passou mal
+—
+
+- Andrius Bonatti de Andrade: Responsável pela coleta de informações e referências para o conteúdo do site e desenvolvimento em HTML e CSS (pg. 5).
+- Gabriel Carlos Hardt Elias: Responsável por desenvolvimento em HTML e CSS(pág. 4)
+- Heitor Medeiros Anadom: Responsável pela programação em JavaScript e desenvolvimento em HTML e CSS (pág 6)
+- Matheus Pasqualini Mello: Responsável por desenvolvimento em HTML e CSS (pág.3)
+- Matheus Rafael Oliveira: Responsável de Relações públicas e programação em JavaScript e desenvolvimento em HTML e CSS(pág. 2).
+- Vicenzo Alves Dos Santos: Responsável pela organização do projeto em Github e desenvolvimento em HTML e CSS (pág. 1).
+—
+
+Decisões e acontecimentos gerais:
+
+Após uma discussão sobre a paleta de cores do site e sua instabilidade, o grupo concluiu e aprovou unanimemente que seria melhor trocar a paleta de cores para tons padronizados e condizentes ao conteúdo do trabalho, sendo os responsáveis pela definição da nova paleta de cores os membros Heitor Medeiros Anadom e Matheus Pasqualini Mello.
+Também está sendo trabalhado a padronização dos tipos e tamanhos das fontes.
+How to Make a Simple JavaScript Quiz: Code Tutorial — SitePoint. Site explicativo sobre como fazer um Quiz em JS integrado no site do projeto.
+
+## ATA-12 TRABALHO PI - Comércio e circulação de tecnologia - Civilizações
+—
+*Data: 9 de Setembro de 2026.*
+
+Assunto: Continuidade das tarefas e mudança da paleta de cores das páginas
+
+Coordenador Matheus Pasqualini Mello & Secretário Heitor Medeiros Anadom.
+—
+Ausentes:
+- Matheus Rafael de Oliveira: Impossibilitado de vir por conta de chuvas intensas e alagamentos
+—
+
+- Andrius Bonatti de Andrade: Responsável pela coleta de informações e referências para o conteúdo do site e desenvolvimento em HTML e CSS (pg. 5).
+- Gabriel Carlos Hardt Elias: Responsável por desenvolvimento em HTML e CSS(pág. 4)
+- Heitor Medeiros Anadom: Responsável pela programação em JavaScript e desenvolvimento em HTML e CSS (pág 6)
+- Matheus Pasqualini Mello: Responsável por desenvolvimento em HTML e CSS (pág.3)
+- Matheus Rafael Oliveira: Responsável de Relações públicas e programação em JavaScript e desenvolvimento em HTML e CSS(pág. 2).
+- Vicenzo Alves Dos Santos: Responsável pela organização do projeto em Github e desenvolvimento em HTML e CSS (pág. 1).
+—
+
+Decisões e acontecimentos gerais:
+
+- Após algumas sugestões sobre a formatação do footer, foi decidido usar como base de inspiração o footer do site Samsung, onde os elementos são apresentados de forma mais organizada e formal.
+- O início do desenvolvimento do footer passará para Heitor Medeiros Anadom enquanto Matheus Pasqualini Mello não houver terminado sua página. Após o término da página 3, o desenvolvimento do footer passará novamente a ser responsabilidade de Matheus Pasqualini Mello
+
+## ATA-12 TRABALHO PI - Comércio e circulação de tecnologia - Civilizações
+—
+*Data: 24 de Setembro de 2026.*
+
+Assunto: Continuidade das tarefas e padronização das fontes e tamanhos do site
+
+Coordenador Matheus Pasqualini Mello & Secretário Heitor Medeiros Anadom.
+—
+Ausentes:
+- Matheus Pasqualini Mello: Motivos pessoais
+—
+
+- Andrius Bonatti de Andrade: Responsável pela coleta de informações e referências para o conteúdo do site, programação do Quiz em JavaScript e desenvolvimento em HTML e CSS (pg. 5).
+- Gabriel Carlos Hardt Elias: Responsável por desenvolvimento em HTML e CSS(pág. 4)
+- Heitor Medeiros Anadom: Responsável pela programação em JavaScript e desenvolvimento em HTML e CSS (pág 6)
+- Matheus Pasqualini Mello: Responsável por criação do footer e desenvolvimento em HTML e CSS (pág.3)
+- Matheus Rafael Oliveira: Responsável de Relações públicas, seleção da nova paleta de cores e desenvolvimento em HTML e CSS(pág. 2).
+- Vicenzo Alves Dos Santos: Responsável pela organização do projeto em Github e desenvolvimento em HTML e CSS (pág. 1).
+—
+
+Decisões e acontecimentos gerais:
+
+- A parte referente ao quiz foi passada de Matheus Rafael De Oliveira para Andrius Bonatti de Andrade por motivos de atrasos no projeto e conveniência
+
+
+
+
+
+
