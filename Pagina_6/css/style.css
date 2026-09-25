@@ -40,7 +40,7 @@ header button {
   animation: animarbotao 10s ease infinite;
 }
 
-header img {
+header h1 a img {
   width: auto;
   height: 15vw;
 }
