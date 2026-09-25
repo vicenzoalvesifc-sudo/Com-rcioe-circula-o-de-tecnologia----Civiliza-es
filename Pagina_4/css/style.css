@@ -1,0 +1,405 @@
+/* === IMPORTAÇÃO DE FONTES */
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+/*
+Follow - font-family: "Fredoka", sans-serif;
+Medu - Oswald
+*/
+/* ==========================*/
+
+/* ==== FORMATAÇÃO GERAL === */
+html {
+  font-size: clamp(1rem, 2vw + 0.8rem, 3rem);
+  font-family: "Epilogue", sans-serif;
+}
+
+h1 {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+i {
+  font-family: "Jet Brains", monospace;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+p {
+  font-family: "Heebo", sans-serif;
+}
+
+/* MEDIA QUERY - DESKTOP */
+@media screen and (min-width: 600px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    margin: 1vw 7vw 4vw 0;
+    align-items: center;
+  }
+
+  nav ul {
+    display: flex;
+  }
+
+  nav ul li {
+    font-size: 0.4rem;
+    margin-left: 3vw;
+    font-weight: 600;
+  }
+
+  nav ul li p a {
+    background: linear-gradient(to right, #d86bfd, #00bbff);
+    padding: 6px 16px;
+    border-radius: 30px;
+    vertical-align: middle;
+    background-size: 400% 400%;
+    animation: animarbotao 10s ease infinite;
+    color: white;
+    padding: 12px 16px;
+    border-radius: 10px;
+    white-space: nowrap;
+  }
+
+  section.rotas {
+    margin: 4vw 7vw;
+  }
+
+  div.texto {
+    display: flex;
+    align-items: center;
+  }
+
+  div.texto div {
+    flex: 1 1 50%;
+  }
+
+  div.texto {
+    margin: 0 0 5vw 0;
+  }
+
+  div.texto p img {
+    width: 80%;
+    margin-left: 9vw;
+    border-radius: 20px;
+  }
+
+  div.texto p {
+    font-size: 0.6rem;
+    /*padding: 0 45vw 0 0;
+    margin: 3vw 0;*/
+  }
+
+  section.rotas h2 {
+    font-size: 1.9rem;
+    font-weight: bold;
+    margin: 0 0 5vw 0;
+    /* padding: 0 45vw 0 0;*/
+  }
+
+  section.rotas h2 span {
+    color: white;
+    background-color: #26a94e;
+    padding: 0 7px;
+    border-radius: 20px;
+  }
+
+  div.botoes {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    /** padding: 0 45vw 0 0;*/
+    font-size: 0.8rem;
+    filter: drop-shadow(8px 8px 0);
+  }
+
+  div.botoes p a {
+    background-color: #26a94e;
+    color: white;
+    padding: 10px 15px;
+    border: 2px solid black;
+  }
+
+  div.botoes p.branco a {
+    background-color: white;
+    color: black;
+  }
+
+  div.impactos {
+    display: flex;
+  }
+
+  section.container {
+    width: 100%;
+  }
+
+  section.container ul {
+    display: flex;
+    width: 100%;
+  }
+
+  section.container li {
+    flex: 1;
+    border: 2px solid black;
+    box-sizing: border-box;
+  }
+
+  /* geral */
+  section.container {
+    margin: 10vw 0;
+  }
+
+  section.container ul li.verde {
+    background-color: #26a94e;
+  }
+  section.container ul li.vermelho {
+    background-color: #d52629;
+  }
+  section.container ul li.yellow {
+    background-color: #ffcc00;
+  }
+  section.container ul li.azul {
+    background-color: #1b4b74;
+  }
+
+  section.container ul li h3 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 10px 8px 5px 20px;
+  }
+  section.container ul li p {
+    font-size: 0.5rem;
+    margin: 5px 5px 30px 20px;
+    display: inline-block;
+    white-space: nowrap;
+  }
+
+  /* Formatação Verde */
+
+  section.container ul li.verde h3 {
+    color: white;
+  }
+  section.container ul li.verde p {
+    color: white;
+  }
+  section.container ul li.verde p span {
+    border-bottom: 3px solid black;
+  }
+
+  /* Formatação Vermelho */
+
+  section.container ul li.vermelho h3 {
+    color: white;
+  }
+  section.container ul li.vermelho p {
+    color: white;
+  }
+  section.container ul li.vermelho p span {
+    border-bottom: 3px solid black;
+  }
+
+  /* Formatação Amarelo */
+
+  section.container ul li.yellow h3 {
+    color: black;
+  }
+  section.container ul li.yellow p {
+    color: black;
+  }
+  section.container ul li.yellow p span {
+    border-bottom: 3px solid black;
+  }
+
+  /* Formatação Azul */
+
+  section.container ul li.azul h3 {
+    color: white;
+  }
+  section.container ul li.azul p {
+    color: white;
+  }
+  section.container ul li.azul p span {
+    border-bottom: 3px solid black;
+  }
+
+  /* Frentes de Impacto */
+
+  section.frentes {
+    margin: 3vw 7vw;
+  }
+  section.frentes h2 {
+    font-size: 1.9rem;
+    font-weight: bold;
+  }
+  section.frentes h2 span {
+    border-bottom: 10px solid #ff0000;
+    display: inline-block;
+  }
+  section.frentes p {
+    font-size: 0.6rem;
+    margin: 3vw 0;
+  }
+
+  /* Container  1 */
+
+  div.container1 {
+    display: flex;
+  }
+  div.container1 ul {
+    display: flex;
+    gap: 30px;
+  }
+  li.green {
+    background-color: #26a94e;
+    filter: drop-shadow(8px 8px 0);
+  }
+  li.green h3 {
+    padding: 15px 20px 0 20px;
+    color: white;
+  }
+  li.green p {
+    padding: 0 0 0 20px;
+    color: white;
+  }
+  li.red {
+    background-color: #d52629;
+    filter: drop-shadow(8px 8px 0);
+  }
+  li.red h3 {
+    padding: 15px 20px 0 20px;
+    color: white;
+  }
+  li.red p {
+    padding: 0 0 0 20px;
+    color: white;
+  }
+
+  /* Container  2 */
+
+  div.container2 {
+    display: flex;
+    margin: 5vw 0;
+  }
+  div.container2 ul {
+    display: flex;
+    gap: 30px;
+  }
+  li.amarelo {
+    background-color: #ffcc00;
+    padding: 0 28px 0 0;
+    filter: drop-shadow(8px 8px 0);
+  }
+  li.amarelo h3 {
+    padding: 15px 20px 0 20px;
+  }
+  li.amarelo p {
+    padding: 0 0 0 20px;
+  }
+  li.blue {
+    background-color: #1b4b74;
+    filter: drop-shadow(8px 8px 0);
+  }
+  li.blue h3 {
+    padding: 15px 20px 0 20px;
+    color: white;
+  }
+  li.blue p {
+    padding: 0 0 0 20px;
+    color: white;
+  }
+
+  /* Formatação Geral (Frentes) */
+
+  section.frentes h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+
+  /* Formatação Geral (Adress) */
+
+  section.adress {
+    display: flex;
+    margin: 3vw 7vw;
+    gap: 33px;
+  }
+  section.adress h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 0 50px 0 0;
+  }
+  section.adress h2 span {
+    color: #295275;
+  }
+  div.lista p {
+    font-size: 0.6rem;
+  }
+  div.lista > p {
+    margin: 0 0 2vw 0;
+  }
+  div.lista ul li p {
+    margin: 0 0 1vw 0;
+  }
+
+  /* 1 */
+
+  div.lista li.um p span {
+    background-color: #d52629;
+    color: white;
+    padding: 1px 15px;
+  }
+  /* 2 */
+
+  div.lista li.dois p span {
+    background-color: #ffcc00;
+    color: black;
+    padding: 1px 15px;
+  }
+  /* 3 */
+
+  div.lista li.tres p span {
+    background-color: #26a94e;
+    color: black;
+    padding: 1px 15px;
+  }
+  /* 4 */
+
+  div.lista li.quatro p span {
+    background-color: #00bbff;
+    color: white;
+    padding: 1px 15px;
+  }
+  /* 5 */
+
+  div.lista li.cinco p span {
+    background-color: black;
+    color: white;
+    padding: 1px 15px;
+  }
+
+  section.imagem {
+    background-color: #bfdddf;
+  }
+  section.imagem p img {
+    margin: 3vw 7vw;
+    width: 86%;
+  }
+  section.ciclo {
+    margin: 3vw 7vw;
+  }
+  section.ciclo h2 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  div.lista-ciclo {
+    display: flex;
+    justify-content: center;
+  }
+  div.lista-ciclo ul {
+    display: flex;
+  }
+}

@@ -1,0 +1,90 @@
+/* Fontes */
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.google.com/selection?query=Roboto&lang=pt_Latn&preview.lang=pt_Latn");
+
+/* Banner(Mobile) */
+html {
+  background-color: rgb(205, 230, 255);
+}
+
+@media (min-width: 1024px) {
+  /* Banner(desktop) */
+  html {
+    background-color: rgb(205, 230, 255);
+  }
+  section.banner h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 5.3rem;
+    margin: 10px 65vw 10px 30px;
+  }
+
+  section.banner h1 span {
+    /* 1. Define o gradiente gigante de fundo */
+    background: linear-gradient(to right, #ff7700, #ffcc00, #00aeff, #a746f0);
+    background-size: 400% 400%;
+
+    /* 2. Recorta o fundo no formato das letras */
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    /* 3. Deixa a cor original do texto transparente para revelar o fundo */
+    -webkit-text-fill-color: transparent;
+
+    /* 4. Ativa o movimento do gradiente */
+    animation: moverGradiente 8s ease infinite;
+  }
+
+  @keyframes moverGradiente {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  section.banner div.geladera{
+    display: flex;
+  }
+  section.banner p {
+    font-size: 1.7rem;
+    padding: 5px 15vw 5px 25px;
+  }
+  section.banner img {
+    padding: 10px;
+    width: 30%;
+    height: auto;
+  }
+
+  /* BOTOES */
+  section.banner button.vermelho {
+    background-color: rgb(243, 56, 56);
+    padding: 12px;
+    border-radius: 30px;
+    color: white;
+    filter: drop-shadow(8px 8px 0 black);
+    border: 1px solid black;
+    margin: 30px 2vw;
+    font-weight: bold;
+  }
+  section.banner button.branco {
+    background-color: white;
+    padding: 12px;
+    border-radius: 30px;
+    color: black;
+    filter: drop-shadow(8px 8px 0 black);
+    border: 1px solid black;
+    margin: 30px;
+    font-weight: bold;
+  }
+  section.banner ul {
+    display: flex;
+    flex-direction: row;
+    padding: 5px 0px 0px 30px;
+    gap: 3vw;
+  }
+  
+}

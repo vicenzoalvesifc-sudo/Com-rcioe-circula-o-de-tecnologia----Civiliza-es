@@ -1,0 +1,7 @@
+{
+  "editor.autoClosingComments": "always",
+  "editor.acceptSuggestionOnEnter": "on",
+  "editor.inlineSuggest.edits.allowCodeShifting": "always",
+  "editor.inlineSuggest.enabled": false,
+  "editor.inlineSuggest.triggerCommandOnProviderChange": false
+}
