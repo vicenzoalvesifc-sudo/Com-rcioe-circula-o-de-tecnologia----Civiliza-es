@@ -7,6 +7,10 @@ header {
   align-items: center;
   background-size: 400% 400%;
   animation: animarGradiente 10s ease infinite;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 @keyframes animarGradiente {
@@ -45,6 +49,7 @@ header button {
   animation: animarbotao 10s ease infinite;
 }
 
+
 @keyframes animarbotao {
   0% {
     background-position: 0% 50%;
@@ -58,31 +63,37 @@ header button {
 }
 
 section.principal {
-  background-image: url(../source/Dados.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  color: white;
+ background-color: white;
+ display: flex;
+  padding: 10vw 6vw 9vw 6vw;
+}
+
+section.principal div#divo{
+  background-color: #1f50882d;
+  padding: 2vw;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
 }
 
 section.principal img {
   width: 30vw;
+  transition: background-color 0.3s ease;
 }
 
-section.principal {
-  display: flex;
-  padding: 6vw 3vw 6vw 3vw;
+section.principal img:hover{
+  transform: scale(1.01);
 }
 
 section.principal div h1 {
   font-size: 3vw;
   font-weight: bold;
-  padding-right: 20vw;
+  color: #0979b0;
+  text-align: center;
 }
 
 section.principal div h2 {
-  padding-right: 20vw;
-  font-size: 3vw;
+  padding: 0 8vw 0 8vw ;
+  font-size: 4vw;
   font-weight: bold;
   /* 1. Define o gradiente gigante de fundo */
   background: linear-gradient(to right, #00f6ff, #1900ff);
@@ -111,22 +122,39 @@ section.principal div h2 {
   }
 }
 
+section.principal div.propoe{
+  background-color: #1f50882d;
+  padding: 2vw 5vw 1vw 10vw;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
 section.principal h3 {
+  padding-top: 2vw;
   font-size: 2vw;
   font-weight: bold;
-  padding-top: 2vw;
 }
 
 section.principal p {
-  padding-bottom: 1vw;
-  padding-right: 10vw;
+  padding-top: 1vw;
   font-size: 1.5vw;
+  color: gray;
+
 }
 
 section.principal button {
-  background-color: #597c7a;
+  background-color: #3150b6;
   padding: 0.7vw 2vw 0.7vw 2vw;
   border-radius: 30px;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+section.principal button:hover {
+  background-color: unset;
+  border: solid 2px #0979b0;
+  color: #000080;
 }
 
 /* Saiba mais */
@@ -135,6 +163,7 @@ section.tecnologia {
   text-align: center;
   padding-left: 10vw;
   padding-right: 10vw;
+  padding-top: 6vw;
 }
 
 section.tecnologia h1 {
@@ -148,7 +177,7 @@ section.tecnologia p {
 }
 
 section.tecnologia h1 span {
-  color: #3150b6;
+  color: #000080;
 }
 
 section.tecnologia img {
@@ -201,7 +230,7 @@ section.carrosel div.subtitle h2 {
 }
 
 section.comercio {
-  background-color: #00003a;
+  background-color: #000050;
   color: white;
   padding: 3vw 15vw 3vw 15vw;
 }
@@ -209,7 +238,7 @@ section.comercio {
 section.comercio h2 {
   text-align: center;
   font-size: 3vw;
-  color: #00f7da;
+  color: #0979b0;
   padding-bottom: 4vw;
 }
 
@@ -218,7 +247,7 @@ section.comercio h3 {
 }
 
 section.comercio h3 span {
-  color: #00f7da;
+  color: #0979b0;
 }
 
 section.comercio p#text {
@@ -271,11 +300,11 @@ section.inter h2 {
 }
 
 section.inter h2 span#roxo {
-  color: #a746f0;
+  color: #0979b0;
 }
 
 section.inter h2 span#ciano {
-  color: #00a491;
+  color: #000080;
 }
 
 section.inter div.boxes {
