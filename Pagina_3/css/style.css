@@ -12,9 +12,11 @@ html {
   font-size: clamp(1rem, 2vw + 0.8rem, 3rem);
   font-family: "Epilogue", sans-serif;
 }
+
 h1 {
   font-family: "Space Grotesk", sans-serif;
 }
+
 h2,
 h3,
 h4,
@@ -22,6 +24,7 @@ h5,
 h6 {
   font-family: "Space Grotesk", sans-serif;
 }
+
 p {
   font-family: "Heebo", sans-serif;
 }
@@ -29,19 +32,22 @@ p {
 /* MEDIA QUERY - DESKTOP */
 @media screen and (min-width: 600px) {
 
-   header {
+  header {
     display: flex;
     justify-content: space-between;
     margin: 4vw 7vw;
   }
-  nav ul {
+
+  header nav ul {
     display: flex;
   }
+
   nav ul li {
     font-size: 0.5rem;
     margin-left: 3vw;
     font-weight: 600;
   }
+
   nav ul li p a {
     background-color: blueviolet;
     color: white;
@@ -52,113 +58,324 @@ p {
   .banner {
     margin: 4vw 7vw;
   }
-  .banner h1{
+
+  .banner h1 {
     font-size: 2.2rem;
     margin-bottom: 1vw;
     padding: 0 45vw 0 0;
     font-weight: bolder;
   }
+
   .banner p {
     font-size: 0.8rem;
     padding: 2vw 15vw 2vw 0
   }
 
   .banner button {
-    background-color:rgb(161, 159, 159);
+    background-color: rgb(161, 159, 159);
     color: black;
     padding: 10px 15px;
     border-radius: 40px;
     filter: drop-shadow(3px solid black);
   }
 
-  .banner h1 span.comercio{
+  .banner h1 span.comercio {
     color: blueviolet;
   }
-  .banner h1 span.tecnologia{
+
+  .banner h1 span.tecnologia {
     background-color: red;
     color: white;
   }
 
-  .aparelhos{
-     margin: 4vw 7vw;
+  .aparelhos {
+    margin: 4vw 7vw;
   }
-  .aparelhos > div{
+
+  .aparelhos>div {
     display: flex;
     justify-content: space-between;
   }
-  .aparelhos h2{
+
+  .aparelhos h2 {
     font-size: 2rem;
     font-weight: bolder;
-    padding: 9vw 0 0 0;
+    padding: 5vw 0 0 0;
   }
-    .aparelhos h2 span{
-      color: rgb(41, 201, 212);
+
+  .aparelhos h2 span {
+    color: rgb(41, 201, 212);
   }
-     .aparelhos h2 span.vender{
-      color: blueviolet;
-      padding: 0 45vw 0 0;
+
+  .aparelhos h2 span.vender {
+    color: blueviolet;
+    padding: 0 45vw 0 0;
 
   }
-  .aparelhos div p{
+
+  .aparelhos div p {
     font-size: 0.6rem;
     padding: 2vw 0 0 0;
 
   }
-  .aparelhos ul{
+
+  .aparelhos ul {
     display: flex;
     padding: 8vw 1vw 0 0;
   }
-  .aparelhos ul li{
+
+  .aparelhos ul li {
     padding: 0 2vw 0 2vw;
     margin: 0 2vw 0 0;
     filter: drop-shadow(8px 8px 0);
-     border: 2px solid black;
-    
+    border: 2px solid black;
+
   }
 
-  .aparelhos ul li.box-red{
+  .aparelhos ul li.box-red {
     background-color: red;
   }
-  .aparelhos ul li.box-blue{
+
+  .aparelhos ul li.box-blue {
     background-color: blue;
-  } 
-  .aparelhos ul li.box-green{
+  }
+
+  .aparelhos ul li.box-green {
     background-color: green;
   }
-  .aparelhos ul li.box-yellow{
+
+  .aparelhos ul li.box-yellow {
     background-color: yellow;
     padding: 0 0 0 0;
   }
-  .aparelhos ul li h3{
+
+  .aparelhos ul li h3 {
 
     color: black;
     font-weight: bolder;
     font-size: 1rem;
     padding: 1vw 0 0 0;
   }
-  .aparelhos ul li p{
+
+  .aparelhos ul li p {
     font-size: 0.6rem;
     padding: 1vw 0 1vw 0;
   }
 
-  .aparelhos img{
+  .aparelhos img {
     width: 30%;
   }
 
   .ideia {
     margin: 4vw 7vw;
     background-color: #21243D;
+    padding: 4vw 0 4vw 0;
   }
-  .ideia h2{
+
+  .ideia h2 {
     font-size: 2rem;
     font-weight: bolder;
     color: white;
     padding: 3vw 30vw 0 2vw;
   }
-  .ideia span{
+
+  .ideia span {
     color: green;
   }
-  .ideia span.mao{
+
+  .ideia span.mao {
     color: red;
   }
+
+  .ideia ol li h3 span.I {
+    color: white;
+    background-color: #84EE4B;
+    padding: 5px 10px;
+    border: white solid 8px;
+    font-weight: bold;
+  }
+
+  .ideia ol li h3 span.II {
+    color: white;
+    background-color: #00AEFF;
+    padding: 5px 10px;
+    border: white solid 8px;
+    font-weight: bold;
+  }
+
+  .ideia ol li h3 span.III {
+    color: white;
+    background-color: #FF383C;
+    padding: 5px 10px;
+    border: white solid 8px;
+    font-weight: bold;
+
+  }
+
+  .ideia ol li h3 span.IV {
+    color: white;
+    background-color: #EEDA02;
+    padding: 5px 10px;
+    border: white solid 8px;
+    font-weight: bold;
+  }
+
+  .ideia ol li h3 span.V {
+    color: white;
+    background-color: #A746F0;
+    padding: 5px 10px;
+    border: white solid 8px;
+    font-weight: bold;
+  }
+
+  .ideia ol {
+    display: flex;
+    gap: 4vw;
+    padding: 5vw 0 0 2vw;
+  }
+
+  .ideia ol li h4 {
+    padding: 30px 0 30px 0;
+    font-weight: bolder;
+    color: white;
+    font-size: 1rem;
+  }
+
+  .ideia ol li p {
+    color: white;
+    font-size: 0.8rem;
+  }
+
+  .circulacao {
+    margin: 4vw 7vw;
+    padding: 3vw 0;
+  }
+
+  .circulacao h2 {
+    font-size: 2rem;
+    font-weight: bolder;
+    padding: 0 10vw 0 0;
+  }
+
+  .circulacao h2 span.escala {
+    color: #A746F0;
+  }
+
+  .circulacao h2 span.planeta {
+    color: aqua;
+  }
+
+  .circulacao p {
+    color: gray;
+    font-size: 0.8rem;
+    padding: 4vw 10vw 4vw 0;
+  }
+
+  .circulacao ul {
+    display: flex;
+    gap: 5vw;
+
+  }
+
+  .circulacao ul li.bens {
+    background: linear-gradient(to bottom right, #B638FF, #0EFACB);
+    padding: 1vw;
+    transform: rotate(-5deg);
+    box-shadow: 7px 7px black;
+    border: solid 3px black;
+  }
+
+  .circulacao ul li.digital {
+    background: linear-gradient(to bottom right, #38FF4F, #00FFC3);
+    padding: 1vw;
+    box-shadow: 7px 7px black;
+    border: solid 3px black;
+    position: relative;
+    bottom: 1.5vw;
+  }
+
+  .circulacao ul li.vendidos {
+    background: linear-gradient(to bottom right, #FF7700, #FF0505);
+    padding: 1vw;
+    transform: rotate(5deg);
+    box-shadow: 7px 7px black;
+    border: solid 3px black;
+  }
+
+  .circulacao ul li h3 {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    padding: 2vw 0 0 0;
+  }
+
+  .circulacao ul li h3.bens2 {
+    padding: 0 3vw 0 0;
+    font-size: 2.2rem;
+  }
+
+  .circulacao ul li p {
+    padding: 3vw 0;
+    color: black;
+  }
+
+  .circulacao ul li.digital p {
+    padding: 6vw 0 0 0;
+  }
+
+  .circulacao ul li.vendidos p {
+    padding: 6vw 0 0 0;
+  }
+
+  .importa {
+    background: linear-gradient(to bottom right, #B638FF, #0EFACB);
+    margin: 4vw 7vw;
+    padding: 2vw;
+  }
+
+  .importa h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 0 0 4vw 0;
+  }
+
+  .importa h2 span {
+    color: black;
+    background-color: #0DFF00;
+    border-radius: 15px;
+
+  }
+
+  .importa ul {
+    display: flex;
+    gap: 4vw;
+    align-items: baseline;
+    flex: 1 1 0;
+    box-sizing: border-box;
+  }
+
+  .importa ul li {
+    color: white;
+    border: solid white 10px;
+  }
+
+  .importa ul li h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 2vw 0 2vw 1vw;
+
+  }
+
+  .importa ul li p {
+    font-size: 0.5rem;
+    padding: 0 0 2vw 1vw;
+
+  }
+
+  .importa ul li.geopolitico p {
+    padding: 0 0 0 1vw;
+  }
+
+
 }
