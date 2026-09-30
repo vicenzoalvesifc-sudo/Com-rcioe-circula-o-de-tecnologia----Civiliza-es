@@ -25,7 +25,6 @@ p {
 /* MEDIA QUERY - DESKTOP */
 
 @media screen and (min-width: 600px) {
-
   header {
     display: flex;
     flex-direction: row;
@@ -54,7 +53,7 @@ p {
     font-size: 0.4rem;
     font-weight: 600;
     margin: 0 0 0 2vw;
-    background-color: #C7CBA0;
+    background-color: #c7cba0;
     padding: 1.7vw 2vw;
     border-radius: 7px;
     white-space: nowrap;
@@ -64,7 +63,7 @@ p {
 
   .banner {
     margin: 0 5vw;
-    border-bottom: 4px solid black ;
+    border-bottom: 4px solid black;
   }
 
   .banner h1 {
@@ -74,14 +73,14 @@ p {
   }
 
   .banner h1 .realmente {
-    color: #4014FF;
+    color: #4014ff;
   }
 
   .banner h2.conc {
     font-size: 1.4rem;
     font-weight: 600;
     display: inline-block;
-    border-bottom: 7px solid #3b00ff ;
+    border-bottom: 7px solid #3b00ff;
     padding-bottom: 4px;
     margin-bottom: 2vw;
   }
@@ -91,7 +90,7 @@ p {
     margin-bottom: 4vw;
   }
 
-  .banner p.conceito span {
+  .banner p.--onceito span {
     color: white;
     background-color: #3b00ff;
     padding: 0.1vw 0.2vw;
@@ -105,7 +104,7 @@ p {
   }
 
   .banner h2.onde span {
-    color: #0088FF;
+    color: #0088ff;
   }
 
   .banner p.ocorrencia {
@@ -130,7 +129,7 @@ p {
   /* === CURIOSIDADES === */
 
   .curiosidades {
-    margin: 10vw 8vw;
+    margin: 10vw 2.5vw;
     align-items: center;
   }
 
@@ -140,8 +139,10 @@ p {
     font-weight: 600;
     color: white;
     white-space: nowrap;
-    background-color: #E91313;
-    padding: 1.5vw 1vw;
+    background-color: #e91313;
+    padding: 1vw 1vw;
+    margin: 0 20vw 0 20vw;
+    margin-bottom: 4vw;
     box-shadow: 12px 12px black;
   }
 
@@ -151,41 +152,71 @@ p {
 
   .curiosidades ul {
     display: flex;
+    flex-direction: row;
   }
 
   .curiosidades ul li {
-    /*border: 4px solid black;
-    box-shadow: 15px 20px black;*/
-    margin: 10vw 1vw;
-    padding: 3vw 2vw 1vw 2vw;
-  }
-
-  .curiosidades ul li .geral-curio .img-curio {
-    border: 4px solid black;
-    border-bottom: 2px solid black;
-    box-shadow: 15px black;
-    padding: 4vw 2vw;
-  }
-
-  .curiosidades ul li img {
-    width: 12vw;
-  }
-
-  .curiosidades ul li .geral-curio .texto-curio {
-    border: 4px solid black;
-    border-top: 2px solid black;
+    border: 1.5px solid black;
+    box-shadow: 12px 36px black;
+    margin: 5vw 1vw;
+    flex: 1;
   }
 
   .curiosidades ul li h3 {
-    text-align: center;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     font-weight: 500;
-    margin-top: 2.2vw;
+    margin: 2vw 2.5vw;
   }
 
   .curiosidades ul li p {
-    font-size: 0.5rem;
-    margin: 1.5vw 0 0 0;
+    font-size: 0.7rem;
+    margin: 1.5vw 2.2vw;
+    text-align: left;
   }
 
+  .curiosidades ul li div img {
+    width: 300px;
+    margin: 5vw 5vw 5vw 7vw;
+    text-align: center;
+  }
+
+  .curiosidades ul li div.curio1 {
+    border: 1px solid black;
+    background-color: #84ee4b;
+  }
+
+  .curiosidades ul li div.curio2 {
+    border: 1px solid black;
+    background-color: yellow
+  }
+
+  .curiosidades ul li div.curio3 {
+    border: 1px solid black;
+    padding-bottom: 6.45vw;
+    background-color: rgb(38, 202, 202);
+  }
+
+  /* === MODERNO === */
+
+  .moderno {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: #4A618C;
+  }
+
+  .moderno div {
+    margin: 4vw 7vw;
+    color: white;
+  }
+
+  .moderno div h2 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 2.5vw;
+  }
+
+  .moderno div h2 span {
+    color: #00D9FF;
+  }
 }
