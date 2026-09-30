@@ -19,43 +19,137 @@ h6 {
   font-family: "Space Grotesk", sans-serif;
 }
 p {
-  font-family: "Heebo", sans-serif;
+  font-family: "Montserrat",sans-serif;
 }
 
 /* MEDIA QUERY - DESKTOP */
 
 @media screen and (min-width: 600px) {
+  main {
+    background-color: rgb(240, 240, 240);
+    margin: 0;
+    padding: 0;
+    display: flow-root;
+  }
+
   header {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 7vw 0 0;
     align-items: center;
-    text-align: center;
-    margin: 5vw 5vw;
   }
-
-  header nav ul {
+  header {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 90px;
+    padding: 0 7vw;
+    margin: 0;
+
+    box-sizing: border-box;
+    background-color: #e8f1f8;
   }
 
-  header nav ul li {
-    padding: 1.5vw;
+  header h1 {
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+  }
+
+  header h1 img {
+    display: block;
+    width: 220px;
+    height: auto;
+  }
+
+  nav ul {
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav ul li {
+    font-size: 0.4rem;
+    margin: 0;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+    html,
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    width: 100%;
+    height: 80px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 7vw;
+    margin: 0;
+
+    box-sizing: border-box;
+
+    background-color: #000000;
+  }
+
+  header h1 {
+    margin: 0;
+    padding: 0;
+
+    /* Corrige o espaço transparente da imagem da logo */
+    transform: translateX(-2.5vw);
+
+    line-height: 0;
+  }
+
+  header h1 img {
+    display: block;
+    width: 220px;
+    height: auto;
+  }
+
+  nav {
+    margin: 0;
+    padding: 0;
+  }
+
+  nav ul {
+    display: flex;
+    align-items: center;
+
+    margin: 0;
+    padding: 0;
+
+    gap: 3vw;
+  }
+
+  nav ul li {
+    margin: 0;
+    padding: 0;
+    color: #e2e8f0;
+
     font-size: 0.4rem;
     font-weight: 600;
+    white-space: nowrap;
   }
 
-  header a.logo {
-    width: 15vw;
-    margin: 0.9vw 5vw 0 0;
-  }
-
-  header a.quiz {
-    font-size: 0.4rem;
-    font-weight: 600;
-    margin: 0 0 0 2vw;
-    background-color: #c7cba0;
-    padding: 1.7vw 2vw;
-    border-radius: 7px;
+  nav ul li p a {
+    background: linear-gradient(to right, #d86bfd, #00bbff);
+    padding: 6px 16px;
+    border-radius: 30px;
+    vertical-align: middle;
+    background-size: 400% 400%;
+    animation: animarbotao 10s ease infinite;
+    color: #e2e8f0;
+    padding: 12px 16px;
+    border-radius: 10px;
     white-space: nowrap;
   }
 
@@ -67,7 +161,7 @@ p {
   }
 
   .banner h1 {
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-weight: 800;
     margin-bottom: 6vw;
   }
@@ -77,7 +171,7 @@ p {
   }
 
   .banner h2.conc {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     font-weight: 600;
     display: inline-block;
     border-bottom: 7px solid #3b00ff;
@@ -86,7 +180,7 @@ p {
   }
 
   .banner p.conceito {
-    font-size: 0.85rem;
+    font-size: 0.7rem;
     margin-bottom: 4vw;
   }
 
@@ -98,7 +192,7 @@ p {
   }
 
   .banner h2.onde {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     font-weight: 600;
     margin-bottom: 2vw;
   }
@@ -108,19 +202,19 @@ p {
   }
 
   .banner p.ocorrencia {
-    font-size: 0.85rem;
+    font-size: 0.7rem;
     margin-bottom: 5vw;
   }
 
   .banner p.ocorrencia span.meso {
-    background-color: rgb(39, 176, 39);
+    background-color: royalblue;
     color: white;
     padding: 0.1vw 0.2vw;
     border-radius: 3px;
   }
 
   .banner p.ocorrencia span {
-    background-color: rgb(126, 195, 126);
+    background-color: rgb(95, 190, 228);
     color: white;
     padding: 0.1vw 0.2vw;
     border-radius: 3px;
@@ -135,11 +229,11 @@ p {
 
   .curiosidades h2 {
     text-align: center;
-    font-size: 1.6rem;
+    font-size: 1.25rem;
     font-weight: 600;
     color: white;
     white-space: nowrap;
-    background-color: #e91313;
+    background-color: rgb(120, 138, 238);
     padding: 1vw 1vw;
     margin: 0 20vw 0 20vw;
     margin-bottom: 4vw;
@@ -163,13 +257,13 @@ p {
   }
 
   .curiosidades ul li h3 {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 500;
     margin: 2vw 2.5vw;
   }
 
   .curiosidades ul li p {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     margin: 1.5vw 2.2vw;
     text-align: left;
   }
@@ -182,18 +276,18 @@ p {
 
   .curiosidades ul li div.curio1 {
     border: 1px solid black;
-    background-color: #84ee4b;
+    background-color: turquoise;
   }
 
   .curiosidades ul li div.curio2 {
     border: 1px solid black;
-    background-color: yellow
+    background-color: paleturquoise;
   }
 
   .curiosidades ul li div.curio3 {
     border: 1px solid black;
     padding-bottom: 6.45vw;
-    background-color: rgb(38, 202, 202);
+    background-color: powderblue;
   }
 
   /* === MODERNO === */
@@ -202,7 +296,7 @@ p {
     display: flex;
     flex-direction: column;
     text-align: left;
-    background-color: #4A618C;
+    background-color: #2b7f99;
   }
 
   .moderno div {
@@ -211,12 +305,49 @@ p {
   }
 
   .moderno div h2 {
-    font-size: 1.6rem;
+    font-size: 1.25rem;
     font-weight: 600;
     margin-bottom: 2.5vw;
   }
 
   .moderno div h2 span {
-    color: #00D9FF;
+    color: #00d9ff;
   }
+
+  .moderno div p.permuta-moderna {
+    margin: 5vw 0 3vw 0;
+    font-size: 0.75rem;
+  }
+
+  .moderno div h3 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin: 2vw 0 3vw;
+  }
+
+  .moderno div h3 span {
+    color: #38bdf8;
+  }
+
+  .moderno div ul li p span {
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+
+  .moderno div ul li p span.sustentabilidade {
+    color: #7194df;
+  }
+
+  .moderno div ul li p span.economia {
+    color: #7e9bd4;
+  }
+
+  .moderno div ul li p span.senso {
+    color: #a3b5da;
+  }
+
+  .moderno div ul li p {
+    font-size: 0.7rem;
+    margin: 2vw 0;
+  } 
 }
