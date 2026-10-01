@@ -483,7 +483,7 @@ section.comercio div.origins {
   font-size: 2rem;
 }
 
-section.comercio div.origins ul li a:hover{
+section.comercio div.origins ul li a:hover {
   transform: scale(1.05);
 }
 
@@ -588,19 +588,20 @@ section.inter div.boxes div.box2 {
 
 /*origems*/
 
-section.introducao{
+section.introducao {
   text-align: center;
   padding: 3vw;
-  h1{
+  h1 {
     font-size: 4rem;
     padding-bottom: 1.5vw;
-  } p{
+  }
+  p {
     font-size: 1vw;
     padding: 1vw;
   }
 }
 
-section.timeline{
+section.timeline {
   padding: 1vw 5vw 1vw 5vw;
   color: rgb(56, 56, 63);
 }
@@ -614,11 +615,21 @@ section.timeline ul {
   padding-left: 20px;
 }
 
-section.timeline div{
+section.timeline div {
   padding: 1.5vw;
   background-color: #0000806b;
   border-radius: 10px;
   margin: 1vw;
+}
+
+section.timeline div.foto {
+  display: flex;
+  background: none;
+  align-items: center;
+  img {
+    border-radius: 20px;
+    height: 11vw;
+  }
 }
 
 footer {
