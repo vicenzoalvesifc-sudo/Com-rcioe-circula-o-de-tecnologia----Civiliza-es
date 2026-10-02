@@ -59,6 +59,34 @@ header h1 {
   margin: 0;
   padding: 0;
   line-height: 0;
+
+
+/* ============================= */
+/*       SEÇÃO IMPORTA           */
+/* ============================= */
+
+.importa ul li {
+  transition:
+    transform 0.35s ease,
+    background-color 0.35s ease;
+}
+
+.importa ul li:hover {
+  transform: translateY(-8px);
+  background-color: rgba(255,255,255,0.08);
+}
+
+
+/* ============================= */
+/*       LINKS DO MENU           */
+/* ============================= */
+
+/* Sublinhado animado do menu */
+nav ul li:not(.botao) a {
+  position: relative;
+  text-decoration: none;
+  color: #E2E8F0;
+}
 }
 
 header h1 img {
@@ -86,6 +114,14 @@ nav ul li {
     margin: 0;
     padding: 0;
     background-color: rgb(66,66,66);
+  }
+
+html {
+  scroll-behavior: smooth;
+}
+
+  body{
+    background-color: rgb(66, 66, 66);
   }
 
   header {
@@ -160,6 +196,7 @@ nav ul li {
 
   .banner {
     margin: 4vw 7vw;
+    
   }
 
   .banner h1 {
@@ -176,7 +213,7 @@ nav ul li {
     color: #E2E8F0;
   }
 
-  .banner p button {
+  .banner p a {
     background-color: rgb(252, 249, 249);
     color: black;
     padding: 10px 15px;
@@ -529,4 +566,180 @@ footer p{
    color: #E2E8F0;
 }
 
+
+
+
+/* ============================= */
+/*       SEÇÃO IMPORTA           */
+/* ============================= */
+
+.importa ul li {
+  transition:
+    transform 0.35s ease,
+    background-color 0.35s ease;
+}
+
+.importa ul li:hover {
+  transform: translateY(-8px);
+  background-color: rgba(255,255,255,0.08);
+}
+
+
+/* ============================= */
+/*       LINKS DO MENU           */
+/* ============================= */
+
+/* Sublinhado animado do menu */
+nav ul li:not(.botao) a {
+  position: relative;
+  text-decoration: none;
+  color: #E2E8F0;
+}
+
+
+
+
+
+
+
+
+/* ============================= */
+/*       ANIMAÇÕES DO SITE       */
+/* ============================= */
+
+/* Entrada geral */
+.banner,
+.aparelhos,
+.ideia,
+.circulacao,
+.importa {
+  animation: aparecer 2s ease both;
+}
+
+@keyframes aparecer {
+  from {
+    opacity: 0;
+    transform: translateY(35px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+/* ============================= */
+/*           CARDS               */
+/* ============================= */
+
+.aparelhos ul li {
+  transition:
+    transform 0.35s ease,
+    box-shadow 0.35s ease;
+}
+
+.aparelhos ul li:hover {
+  transform: translateY(-12px) scale(1.03);
+  box-shadow: 12px 12px 0 black;
+}
+
+
+/* Ícones dos cards */
+
+.aparelhos ul li img {
+  transition: transform 0.4s ease;
+}
+
+.aparelhos ul li:hover img {
+  transform: scale(1.15) rotate(5deg);
+}
+
+
+/* ============================= */
+/*        BOTÃO QUIZ             */
+/* ============================= */
+
+nav ul li.botao a {
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    filter 0.3s ease;
+}
+
+nav ul li.botao a:hover {
+  transform: translateY(-4px) scale(1.05);
+  box-shadow: 0 8px 25px rgba(124, 58, 237, 0.5);
+  filter: brightness(1.15);
+}
+
+
+/* ============================= */
+/*      CARDS DE CIRCULAÇÃO      */
+/* ============================= */
+
+.circulacao ul li {
+  transition:
+    transform 0.4s ease,
+    box-shadow 0.4s ease;
+}
+
+.circulacao ul li.bens:hover {
+  transform: rotate(-5deg) translateY(-12px) scale(1.03);
+}
+
+.circulacao ul li.digital:hover {
+  transform: translateY(-12px) scale(1.03);
+}
+
+.circulacao ul li.vendidos:hover {
+  transform: rotate(5deg) translateY(-12px) scale(1.03);
+}
+
+
+
+
+
+/* ============================= */
+/*       SEÇÃO IMPORTA           */
+/* ============================= */
+
+.importa ul li {
+  transition:
+    transform 0.35s ease,
+    background-color 0.35s ease;
+}
+
+.importa ul li:hover {
+  transform: translateY(-8px);
+  background-color: rgba(255,255,255,0.08);
+}
+
+
+/* ============================= */
+/*       LINKS DO MENU           */
+/* ============================= */
+
+/* Sublinhado animado do menu */
+nav ul li:not(.botao) a {
+  position: relative;
+  text-decoration: none;
+  color: #E2E8F0;
+}
+
+/* Linha do sublinhado */
+nav ul li:not(.botao) a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 0;
+  height: 2px;
+  background: #00d9ff;
+  transition: width 0.3s ease;
+}
+
+/* Aparece ao passar o mouse */
+nav ul li:not(.botao) a:hover::after {
+  width: 100%;
 }
