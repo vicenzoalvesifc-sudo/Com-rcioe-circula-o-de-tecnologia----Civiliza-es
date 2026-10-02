@@ -214,7 +214,7 @@ nav ul li {
   }
 
   .motifs p span {
-    color: #ff0000;
+    color: #47c5ff;
     font-weight: bold;
   }
   .motifs ol li h3 {
@@ -222,22 +222,22 @@ nav ul li {
   }
 
   .motifs ol li.survive {
-    background-color: #3a7d16;
+    background-color: #277cc2;
     color: white;
   }
 
   .motifs ol li.war {
-    background-color: #d52629;
+    background-color: #5847f5;
     color: white;
   }
 
   .motifs ol li.religion {
-    background-color: #ffcc00;
-    color: black;
+    background-color: #00aeff;
+    color: rgb(255, 255, 255);
   }
 
   .motifs ol li.connectivity {
-    background-color: #1b4b74;
+    background-color: #2073bb;
     color: white;
   }
 
@@ -245,12 +245,13 @@ nav ul li {
     display: flex;
     gap: 30px;
     margin: 0.5vw 0.5vw 0.5vw 0.5vw;
-    filter: drop-shadow(5px 5px 0 black);
+    filter: drop-shadow(5px 5px 0 rgb(37, 37, 37));
   }
 
   .motifs ol li {
     padding: 0.5vw 0.5vw 0.5vw 0.5vw;
     margin: 0 1vw 15px 1vw;
+    border-radius: 10px;
   }
 
   .motifs ol li p {
@@ -267,50 +268,48 @@ nav ul li {
   }
 
   .access h2 span {
-    color: #15ff30;
+    color: #45a5ff;
   }
 
   .access h2 span.red {
-    color: #ff383c;
+    color: #5d38ff;
   }
   .access p {
     padding-top: 2.5vw;
   }
   .access ul {
+    margin: 2px 2px 2px 2px;
+    border: #000000 solid 3px;
     display: flex;
     padding-bottom: 3vw;
   }
-  .access ul {
-    margin: 2px 2px 2px 2px;
-    border: #000000 solid 3px;
-  }
-  .access img {
+  /* .access img {
     width: auto;
     height: 15px;
     padding-right: 3px;
-  }
+  } */
   .access ul li p span.king {
     font-weight: bold;
     font-size: 1.5rem;
-    color: #ffcc00;
+    color: rgb(32, 151, 255);
   }
 
   .access ul li p span.priest {
     font-weight: bold;
     font-size: 1.5rem;
-    color: #0088ff;
+    color: #0979b0;
   }
 
   .access ul li p span.military {
     font-weight: bold;
     font-size: 1.5rem;
-    color: #3a7d16;
+    color: #6250ff;
   }
 
   .access ul li p span.scientist {
     font-weight: bold;
     font-size: 1.5rem;
-    color: #ff6464;
+    color: #984cfc;
   }
 
   /* ------------------ MainTech ------------------*/
