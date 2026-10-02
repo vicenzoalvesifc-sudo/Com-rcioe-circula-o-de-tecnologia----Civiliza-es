@@ -1,4 +1,4 @@
-[ir para pagina1] (https://github.com/vicenzoalvesifc-sudo/Com-rcioe-circula-o-de-tecnologia----Civiliza-es/blob/main/Pagina_1/home.html)
+[ir para pagina1](https://github.com/vicenzoalvesifc-sudo/Com-rcioe-circula-o-de-tecnologia----Civiliza-es/blob/main/Pagina_1/home.html)
 
 # Comércio e circulação de tecnologia -- Civilizações
 Membros do grupo: Matheus M. - Matheus R. - Gabriel - Andrius - Vicenzo - Heitor
