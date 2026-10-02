@@ -85,6 +85,7 @@ nav ul li {
   body {
     margin: 0;
     padding: 0;
+    background-color: rgb(66,66,66);
   }
 
   header {
@@ -166,19 +167,21 @@ nav ul li {
     margin-bottom: 1vw;
     padding: 0 45vw 0 0;
     font-weight: bolder;
+     color: #E2E8F0;
   }
 
   .banner p {
     font-size: 0.8rem;
-    padding: 2vw 15vw 2vw 0
+    padding: 2vw 15vw 2vw 0;
+    color: #E2E8F0;
   }
 
-  .banner button {
-    background-color: rgb(161, 159, 159);
+  .banner p button {
+    background-color: rgb(252, 249, 249);
     color: black;
     padding: 10px 15px;
     border-radius: 40px;
-    filter: drop-shadow(3px solid black);
+    filter: drop-shadow(10px 10px 0 black);
   }
 
   .banner h1 span.comercio {
@@ -203,6 +206,7 @@ nav ul li {
     font-size: 2rem;
     font-weight: bolder;
     padding: 5vw 0 0 0;
+     color: #E2E8F0;
   }
 
   .aparelhos h2 span {
@@ -218,6 +222,7 @@ nav ul li {
   .aparelhos div p {
     font-size: 0.6rem;
     padding: 2vw 0 0 0;
+     color: #E2E8F0;
 
   }
 
@@ -253,7 +258,7 @@ nav ul li {
 
   .aparelhos ul li h3 {
 
-    color: black;
+     color: #E2E8F0;
     font-weight: bolder;
     font-size: 1rem;
     padding: 1vw 0 0 0;
@@ -262,6 +267,7 @@ nav ul li {
   .aparelhos ul li p {
     font-size: 0.6rem;
     padding: 1vw 0 1vw 0;
+     color: #E2E8F0;
   }
 
   .aparelhos img {
@@ -359,6 +365,7 @@ nav ul li {
     font-size: 2rem;
     font-weight: bolder;
     padding: 0 10vw 0 0;
+     color: #E2E8F0;
   }
 
   .circulacao h2 span.escala {
@@ -370,9 +377,9 @@ nav ul li {
   }
 
   .circulacao p {
-    color: gray;
     font-size: 0.8rem;
     padding: 4vw 10vw 4vw 0;
+     color: #E2E8F0;
   }
 
   .circulacao ul {
@@ -410,6 +417,7 @@ nav ul li {
     font-size: 2.5rem;
     font-weight: bolder;
     padding: 2vw 0 0 0;
+     color: #000000;
   }
 
   .circulacao ul li h3.bens2 {
@@ -419,7 +427,7 @@ nav ul li {
 
   .circulacao ul li p {
     padding: 3vw 0;
-    color: black;
+     color: #000000;
   }
 
   .circulacao ul li.digital p {
@@ -495,18 +503,21 @@ footer div ul {
   text-align: left;
 }
 footer h2 {
-  font-weight: bold;
+  font-weight: bolder;
   font-size: 0.5rem;
+   color: #E2E8F0;
 }
 footer ul li a{
   color: rgb(46, 44, 44);
   font-size: 0.5rem;
+   color: #E2E8F0;
 }
 footer div p{
   color: rgb(46, 44, 44);
+   color: #E2E8F0;
 }
 footer p span{
-  color: rgb(110, 30, 134);
+  color: rgb(0, 217, 255);
   
 }
 footer p{
@@ -515,6 +526,7 @@ footer p{
   margin: 0 30vw;
   text-align: center;
   align-items: center;
+   color: #E2E8F0;
 }
 
 }
