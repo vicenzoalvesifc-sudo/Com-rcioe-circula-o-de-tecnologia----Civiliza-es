@@ -1,3 +1,5 @@
+[ir para pagina1] (./Pagina_1/)
+
 # Comércio e circulação de tecnologia -- Civilizações
 Membros do grupo: Matheus M. - Matheus R. - Gabriel - Andrius - Vicenzo - Heitor
 ## ATA-01 TRABALHO PI - Comércio e circulação de tecnologia - Civilizações
