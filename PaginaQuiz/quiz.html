@@ -1,28 +1,58 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/quiz.css" />
-    <link rel="stylesheet" href="css/reset.css" />
-    <title>Document</title>
-  </head>
-  <body>
-    <main>
-      <section class="quiz">
-        <h1>Bem vindo ao nosso Quiz!</h1>
-        <p>
-          Aqui você poderá testar os conhecimentos que adquiriu ao ler o nosso
-          site. O Quiz conta com um contador de acertos, um cronometro e um
-          placar de liderança para aqueles que responderam em um tempo menor que
-          os outros (Sua resposta só poderá ser mostrada caso todas as respostas
-          estejam certas)
-        </p>
-        <div id="quiz">
-          <div id="question"></div>
-          <div id="answers"></div>
-        </div>
-      </section>
-    </main>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/quiz.css" />
+  <link rel="stylesheet" href="css/reset.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <main>
+    <section class="intro">
+      <h1>Bem vindo ao nosso Quiz!</h1>
+      <p>
+        Aqui você poderá testar os conhecimentos que adquiriu ao ler o nosso
+        site. O Quiz conta com um contador de acertos, um cronometro e um
+        placar de liderança para aqueles que responderam em um tempo menor que
+        os outros (Sua resposta só poderá ser mostrada caso todas as respostas
+        estejam certas)
+      </p>
+    </section>
+    <section class="quiz">
+      <ol>
+        <li id="p1"> <!-- pergunta 1 -->
+          <h2>Pergunta1</h2>
+          <ul>
+            <li>
+              <label onclick="valResp" (this, '1' )>
+                <input type="radio" value="1" name="p1">
+                Op1
+              </label>
+            </li>
+             <li>
+              <label onclick="valResp" (this, '1' )>
+                <input type="radio" value="1" name="p1">
+                Op2
+              </label>
+            </li> <li>
+              <label onclick="valResp" (this, '1' )>
+                <input type="radio" value="0" name="p1"> <!--value = 0 means correct-->
+                Op3
+              </label>
+            </li> <li>
+              <label onclick="valResp" (this, '1' )>
+                <input type="radio" value="1" name="p1">
+                Op4
+              </label>
+            </li>
+          </ul>
+        </li>
+      </ol>
+    </section>
+  </main>
+</body>
+
 </html>
