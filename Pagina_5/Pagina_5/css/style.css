@@ -1,0 +1,393 @@
+/* === IMPORTAÇÃO DE FONTES */
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap");
+
+/* === FORMATAÇÃO GERAL === */
+
+html {
+  font-size: clamp(1rem, 2vw + 0.8rem, 3rem);
+  font-family: "Epilogue", sans-serif;
+}
+h1 {
+  font-family: "Space Grotesk", sans-serif;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Space Grotesk", sans-serif;
+  color: white;
+}
+p {
+  font-family: "Heebo", sans-serif;
+  color: white;
+}
+
+/* MEDIA QUERY - DESKTOP */
+
+@media screen and (min-width: 600px) {
+  main {
+    background-color: rgb(66, 66, 66);
+    margin: 0;
+    padding: 0;
+    display: flow-root;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 7vw 0 0;
+    align-items: center;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 90px;
+    padding: 0 7vw;
+    margin: 0;
+
+    box-sizing: border-box;
+    background-color: #e8f1f8;
+  }
+
+  header h1 {
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+  }
+
+  header h1 img {
+    display: block;
+    width: 220px;
+    height: auto;
+  }
+
+  nav ul {
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav ul li {
+    font-size: 0.4rem;
+    margin: 0;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    width: 100%;
+    height: 80px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 7vw;
+    margin: 0;
+
+    box-sizing: border-box;
+
+    background-color: #000000;
+  }
+
+  header h1 {
+    margin: 0;
+    padding: 0;
+
+    /* Corrige o espaço transparente da imagem da logo */
+    transform: translateX(-2.5vw);
+
+    line-height: 0;
+  }
+
+  header h1 img {
+    display: block;
+    width: 220px;
+    height: auto;
+  }
+
+  nav {
+    margin: 0;
+    padding: 0;
+  }
+
+  nav ul {
+    display: flex;
+    align-items: center;
+
+    margin: 0;
+    padding: 0;
+
+    gap: 3vw;
+  }
+
+  nav ul li {
+    margin: 0;
+    padding: 0;
+    color: #e2e8f0;
+
+    font-size: 0.4rem;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+  nav ul li p a {
+    background: linear-gradient(to right, #d86bfd, #00bbff);
+    padding: 6px 16px;
+    border-radius: 30px;
+    vertical-align: middle;
+    background-size: 400% 400%;
+    animation: animarbotao 10s ease infinite;
+    color: #e2e8f0;
+    padding: 12px 16px;
+    border-radius: 10px;
+    white-space: nowrap;
+  }
+
+  /* === BANNER === */
+
+  .banner {
+    margin: 0 5vw;
+    border-bottom: 4px solid black;
+  }
+
+  .banner h2.oque {
+    margin-top: 7vw;
+    font-size: 1.6rem;
+    font-weight: 800;
+    margin-bottom: 6vw;
+  }
+
+  .banner h2.oque .realmente {
+    color: #4014ff;
+  }
+
+  .banner h2.conc {
+    font-size: 1.1rem;
+    font-weight: 600;
+    display: inline-block;
+    border-bottom: 7px solid #3b00ff;
+    padding-bottom: 4px;
+    margin-bottom: 2vw;
+  }
+
+  .banner p.conceito {
+    font-size: 0.7rem;
+    margin-bottom: 4vw;
+  }
+
+  .banner p.--onceito span {
+    color: white;
+    background-color: #3b00ff;
+    padding: 0.1vw 0.2vw;
+    border-radius: 3px;
+  }
+
+  .banner h2.onde {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 2vw;
+  }
+
+  .banner h2.onde span {
+    color: #0088ff;
+  }
+
+  .banner p.ocorrencia {
+    font-size: 0.7rem;
+    margin-bottom: 5vw;
+  }
+
+  .banner p.ocorrencia span.meso {
+    background-color: royalblue;
+    color: white;
+    padding: 0.1vw 0.2vw;
+    border-radius: 3px;
+  }
+
+  .banner p.ocorrencia span {
+    background-color: rgb(95, 190, 228);
+    color: white;
+    padding: 0.1vw 0.2vw;
+    border-radius: 3px;
+  }
+
+  /* === CURIOSIDADES === */
+
+  .curiosidades {
+    margin: 10vw 2.5vw;
+    align-items: center;
+  }
+
+  .curiosidades h2 {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: white;
+    white-space: nowrap;
+    background-color: rgb(120, 138, 238);
+    padding: 1vw 1vw;
+    margin: 0 20vw 0 20vw;
+    margin-bottom: 4vw;
+    box-shadow: 12px 12px black;
+  }
+
+  .curiosidades h2 span {
+    color: rgb(5, 32, 63);
+  }
+
+  .curiosidades ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .curiosidades ul li {
+    border: 1.5px solid black;
+    box-shadow: 12px 36px black;
+    margin: 5vw 1vw;
+    flex: 1;
+  }
+
+  .curiosidades ul li h3 {
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 2vw 2.5vw;
+  }
+
+  .curiosidades ul li p {
+    font-size: 0.6rem;
+    margin: 1.5vw 2.2vw;
+    text-align: left;
+  }
+
+  .curiosidades ul li div img {
+    width: 300px;
+    margin: 5vw 5vw 5vw 7vw;
+    text-align: center;
+  }
+
+  .curiosidades ul li div.curio1 {
+    border: 1px solid black;
+    background-color: turquoise;
+  }
+
+  .curiosidades ul li div.curio2 {
+    border: 1px solid black;
+    background-color: paleturquoise;
+  }
+
+  .curiosidades ul li div.curio3 {
+    border: 1px solid black;
+    padding-bottom: 6.45vw;
+    background-color: powderblue;
+  }
+
+  /* === MODERNO === */
+
+  .moderno {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: #093958;
+  }
+
+  .moderno div {
+    margin: 4vw 7vw;
+    color: white;
+  }
+
+  .moderno div h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 2.5vw;
+  }
+
+  .moderno div h2 span {
+    color: #00d9ff;
+  }
+
+  .moderno div p.permuta-moderna {
+    margin: 5vw 0 3vw 0;
+    font-size: 0.75rem;
+  }
+
+  .moderno div h3 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin: 2vw 0 3vw;
+  }
+
+  .moderno div h3 span {
+    color: #38bdf8;
+  }
+
+  .moderno div ul li p span {
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+
+  .moderno div ul li p span.sustentabilidade {
+    color: #7194df;
+  }
+
+  .moderno div ul li p span.economia {
+    color: #7e9bd4;
+  }
+
+  .moderno div ul li p span.senso {
+    color: #a3b5da;
+  }
+
+  .moderno div ul li p {
+    font-size: 0.7rem;
+    margin: 2vw 0;
+  }
+
+  /* ===  FOOTER === */
+
+  footer div {
+    display: flex;
+    gap: 29vw;
+    justify-content: left;
+    margin-top: 1.5vw;
+    margin-left: 7.51vw;
+    padding-bottom: 1vw;
+  }
+  footer div ul {
+    border-right: gray solid 2px;
+    padding: 1px 3vw 1px 0;
+    text-align: left;
+  }
+  footer h2 {
+    font-weight: bold;
+    font-size: 0.5rem;
+  }
+  footer ul li a {
+    color: rgb(46, 44, 44);
+    font-size: 0.5rem;
+  }
+  footer div p {
+    color: rgb(46, 44, 44);
+  }
+  footer p span {
+    color: rgb(110, 30, 134);
+  }
+  footer p {
+    font-size: 0.5rem;
+    padding: 4vw 2vw 2vw 6vw;
+    margin: 0 30vw;
+    text-align: center;
+    align-items: center;
+  }
+}
