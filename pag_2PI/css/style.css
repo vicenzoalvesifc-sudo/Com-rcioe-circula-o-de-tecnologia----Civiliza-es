@@ -1,0 +1,349 @@
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+@import url("https://fonts.google.com/selection?preview.script=Latn&query=Special+gothic+expanded");
+
+/*geral*/
+main p {
+  font-family: 'Heebo', sans-serif;
+  font-size: 1.2rem;
+}
+main h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    font-family: "Space Grotesk", sans-serif;
+    padding: 50px 0px 40px 30px;
+}
+
+/* Banner (Mobile) */
+
+
+@media (min-width: 1024px) {
+
+  /* Banner(desktop) */
+
+  .banner h1 {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 3.5rem;
+    margin: 10px 0px 10px 30px;
+  }
+
+  .banner h1 span {
+    /* 1. Definlinear-gradient(to right, #ff7700, #ffcc00, #00aeff, #a746f0)e o gradiente gigante de fundo */
+    background: #000080;
+
+    /* 2. Recorta o fundo no formato das letras */
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    /* 3. Deixa a cor original do texto transparente para revelar o fundo */
+    -webkit-text-fill-color: transparent;
+
+    /* 4. Ativa o movimento do gradiente */
+    animation: moverGradiente 8s ease infinite;
+  }
+
+  .banner div.geladera {
+    display: flex;
+  }
+  .banner .legendas li p {
+    white-space: nowrap;
+  }
+  .banner p {
+    padding: 5px 5vw 15px 60px;
+    margin: 0 12vw 0 0;
+  }
+
+  .banner img {
+    padding: 10px;
+    width: 30%;
+    height: auto;
+  }
+
+  .banner {
+    background-size: 80% auto;
+    display: flex;
+    
+    
+  }
+  .banner div.legendas ul {
+    color: aliceblue;
+  }
+
+  /* BOTOES */
+  .banner a {
+    font-family: 'Heebo', sans-serif;
+  }
+
+  .banner button.vermelho {
+    background: #0979b0;
+    padding: 12px;
+    border-radius: 30px;
+    color: white;
+    filter: drop-shadow(8px 8px 0 black);
+    border: 1px solid black;
+    margin: 30px 2vw 0vw 4vw;
+    font-weight: bold;
+  }
+
+  .banner button.branco {
+    background-color: white;
+    padding: 12px;
+    border-radius: 30px;
+    color: black;
+    filter: drop-shadow(8px 8px 0 black);
+    border: 1px solid black;
+    margin: 30px;
+    font-weight: bold;
+  }
+
+  .banner ul {
+    display: flex;
+    flex-direction: column;
+    padding: 130px 20px 20px 20px;
+    gap: 30px;
+  }
+
+  .banner ul {
+    font-size: 1.8rem;
+    font-weight: bolder;
+    background: rgb(0, 2, 31);
+    background-size: 400% 400%;
+
+    /* 2. Recorta o fundo no formato das letras */
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    /* 3. Deixa a cor original do texto transparente para revelar o fundo */
+    -webkit-text-fill-color: transparent;
+
+    /* 4. Ativa o movimento do gradiente */
+    animation: moverGradiente 8s ease infinite;
+  }
+
+  /* Tempo */
+  .tempo h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: "Space Grotesk", sans-serif;
+    padding: 50px 0px 60px 60px;
+  }
+  .tempo h1 span {
+    color: #000080;
+  }
+  .tempo img {
+    width: 7vw;
+  }
+  .tempo ul li h4 {
+    color: rgb(112, 108, 108);
+  }
+  .tempo ul li {
+    background-color: white;
+    border-radius: 20px;
+  }
+  .tempo ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    gap: 50px;
+  }
+  .tempo ul li h3 {
+    font-weight: bold;
+    text-align: left;
+  }
+  .tempo ul li {
+    border: black solid 2px;
+    
+  }
+  .tempo ul {
+    margin: 0px 15vw ;
+    padding: 10px 0px 50px;
+  }
+  .tempo ul li.M {
+    padding: 10px 20px 10px 20px;
+  }
+    .tempo ul li.I {
+    padding: 10px 20px 10px 20px;
+  }
+    .tempo ul li.Mobile {
+    padding: 10px 20px 10px 20px;
+  }
+    .tempo ul li.N {
+    padding: 10px 20px 10px 20px;
+  }
+    .tempo ul li.Main {
+    padding: 10px 7px 10px 7px;
+  }
+  .tempo h3 {
+    font-family: 'Heebo', sans-serif;
+  }
+
+   /* Mercadoria */
+   .mercadoria {
+    display: flex;
+    gap: 180px;
+   }
+   .mercadoria h1 {
+    font-size: 2rem;
+    padding: 6vw 0px 20px 60px;
+   }
+   .mercadoria p {
+    padding: 20px 20px 20px 60px;
+   }
+   .mercadoria img {
+    width: 50%;
+    padding: 110px 10px 50px 20px;
+   }
+   .mercadoria ul {
+    padding: 50px 0px 0px 150px;
+    display: flex;
+   }
+   .mercadoria ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px 45px;
+
+    padding: 50px;
+    margin-top: 35px;
+
+    list-style: none;
+    margin: 0px 0px 0px 60px;
+  }
+
+  .mercadoria li {
+    background: #0979b0;
+
+    padding: 10px 15px;
+
+    border-radius: 0px;
+
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 18px;
+
+    box-shadow: 7px 7px 0 #000000;
+
+    transition: 0.2s;
+    white-space: nowrap;
+  }
+  /* Rotas */
+  .rotas  {
+    padding: 50px 0px 50px;
+  }
+  .rotas h1 {
+    font-size: 2rem;
+    padding: 0px 0px 50px 60px;
+  }
+  .rotas img.rota {
+    width: 50%;
+    padding: 0px 0px 20px 65px;
+  }
+  .rotas img {
+     padding: 0px 0px 0px 0px;
+     width: 2vw;
+  }
+  .rotas img.assia {
+    width: 2.1vw;
+  }
+  .rotas ul {
+    display: flex;
+  }
+  .rotas .legenda {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+
+    padding: 0;
+    margin: 20px 60px;
+
+    list-style: none;
+}
+
+.rotas .legenda li {
+    display: flex;
+    align-items: center;
+
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Quadradinhos */
+
+.rotas .legenda li::before {
+    content: "";
+    width: 40px;
+    height: 40px;
+
+    display: inline-block;
+
+    margin-right: 16px;
+}
+
+/* Cores */
+
+.rotas .legenda .asia::before {
+    background-color: #f7d85c;
+}
+
+.rotas .legenda .europa::before {
+    background-color: #83e88b;
+}
+
+.rotas .legenda .america::before {
+    background-color: #a9d8e6;
+}
+
+.rotas .legenda .africa::before {
+    background-color: #f5aeba;
+}
+
+.rotas p {
+  padding: 10px 10px 10px 60px;
+}
+
+    /* Ciclo */
+   .ciclo h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: "Space Grotesk", sans-serif;
+    padding: 50px 0px 60px 60px;
+  }
+  .ciclo h1 span {
+    color: #000080;
+  }
+  .ciclo img {
+    width: 8.5vw;
+    height: 6.5vw;
+  }
+   .ciclo ul li {
+    background-color: white;
+    border-radius: 20px;
+  }
+  .ciclo ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    gap: 50px;
+    padding: 100px;
+  }
+  .ciclo ul li {
+    border: black solid 2px;
+    
+  }
+  .ciclo ul {
+    margin: 0px 15vw ;
+    padding: 10px 0px 50px;
+  }
+  .ciclo ul li h4 {
+    font-family: 'Heebo',sans-serif;
+    font-weight: bold;
+  }
+  .ciclo ul li img {
+    padding: 5px 5px 5px 5px;
+  }
+  .ciclo p {
+    padding: 0px 0px 30px 60px;
+  }
