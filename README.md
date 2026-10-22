@@ -384,6 +384,75 @@ Decisões e acontecimentos gerais:
 
 - A parte referente ao quiz foi passada de Matheus Rafael De Oliveira para Andrius Bonatti de Andrade por motivos de atrasos no projeto e conveniência
 
+## ATA-13 TRABALHO PI - Comércio e circulação de tecnologia - Civilizações
+—
+*Data: 24 de Setembro de 2026.*
+
+Assunto: Continuidade das tarefas e padronização das fontes e tamanhos do site
+
+Coordenador Matheus Pasqualini Mello & Secretário Heitor Medeiros Anadom.
+—
+Ausentes:
+- Matheus Pasqualini Mello: Motivos pessoais
+—
+
+- Andrius Bonatti de Andrade: Responsável pela coleta de informações e referências para o conteúdo do site, programação do Quiz em JavaScript e desenvolvimento em HTML e CSS (pg. 5).
+- Gabriel Carlos Hardt Elias: Responsável por desenvolvimento em HTML e CSS(pág. 4)
+- Heitor Medeiros Anadom: Responsável pela programação em JavaScript, padronização de fontes e tamanhos e desenvolvimento em HTML e CSS (pág 6)
+- Matheus Pasqualini Mello: Responsável por criação do footer e desenvolvimento em HTML e CSS (pág.3)
+- Matheus Rafael Oliveira: Responsável de Relações públicas, seleção da nova paleta de cores e desenvolvimento em HTML e CSS(pág. 2).
+- Vicenzo Alves Dos Santos: Responsável pela organização do projeto em Github e desenvolvimento em HTML e CSS (pág. 1).
+—
+
+Decisões e acontecimentos gerais:
+
+A parte referente ao quiz foi passada de Matheus Rafael De Oliveira para Andrius Bonatti de Andrade por motivos de atrasos no projeto e conveniência
+Foi decidido as fontes padrão para o site, sendo elas Heebo para o texto comum e Space Grotesk para títulos.
+Para adicionar Heebo a sua biblioteca de fontes: Abra o seu nomeDaPagina.css, vá para o início do arquivo e escreva @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap');
+Para usar a fonte Heebo em seu texto basta escrever font-family: "Heebo", sans-serif;
+
+## ATA-14 TRABALHO PI - Comércio e circulação de tecnologia - Civilizações
+—
+*Data: 1 de Outubro de 2026.*
+
+Assunto: Continuidade das tarefas , início do desenvolvimento do quiz e discussão sobre a apresentação na SEPE
+
+Coordenador Matheus Pasqualini Mello & Secretário Heitor Medeiros Anadom.
+—
+Ausentes:
+Matheus Rafael de Oliveira: Motivo não especificado
+—
+
+- Andrius Bonatti de Andrade: Responsável pela coleta de informações e referências para o conteúdo do site, programação do Quiz em JavaScript e desenvolvimento em HTML e CSS (pg. 5).
+- Gabriel Carlos Hardt Elias: Responsável por desenvolvimento em HTML e CSS(pág. 4)
+- Heitor Medeiros Anadom: Responsável pela programação em JavaScript, padronização de fontes e tamanhos e desenvolvimento em HTML e CSS (pág 6)
+- Matheus Pasqualini Mello: Responsável por criação do footer e desenvolvimento em HTML e CSS (pág.3)
+- Matheus Rafael Oliveira: Responsável de Relações públicas, seleção da nova paleta de cores e desenvolvimento em HTML e CSS(pág. 2).
+- Vicenzo Alves Dos Santos: Responsável pela organização do projeto em Github e desenvolvimento em HTML e CSS (pág. 1).
+—
+
+Decisões e acontecimentos gerais:
+
+A nova paleta de cores foi definida e os códigos hexadecimais das cores estão presentes no grupo de whatsapp do projeto. O tema padrão do site foi alterado para escuro, buscando um maior conforto para leitura e compatibilidade com a nova paleta de cores
+Foi sugerido fazer uma competição na hora da apresentação, valendo um brinde para os ganhadores. a competição consistiria em um quiz temático dos conteúdos do site
+
+## ATA-15 TRABALHO PI - Comércio e circulação de tecnologia - Civilizações
+—
+*Data: 15 de Outubro de 2026.*
+
+Assunto: Discussão pós-SEPE sobre os resultados dos projetos e sugestões para melhoria
+
+Coordenador Matheus Pasqualini Mello & Secretário Heitor Medeiros Anadom.
+—
+Ausentes: Nenhum
+—
+
+Decisões e acontecimentos gerais:
+
+A nova paleta de cores foi definida e os códigos hexadecimais das cores estão presentes no grupo de whatsapp do projeto. O tema padrão do site foi alterado para escuro, buscando um maior conforto para leitura e compatibilidade com a nova paleta de cores
+Foi sugerido fazer uma competição na hora da apresentação, valendo um brinde para os ganhadores. a competição consistiria em um quiz temático dos conteúdos do site
+
+
 
 
 
